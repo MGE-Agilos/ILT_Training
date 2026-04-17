@@ -1,0 +1,429 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0150)https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm -->
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="templateTopic _Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-community-features="disabled" data-mc-toc-path="Modules" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="icon" type="image/png" sizes="32x32" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Images/Qlik%20Logos/favicon-32x32.png">
+        <title>Developing and Debugging</title>
+        <link href="./Developing and Debugging_files/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/Styles(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/Tablet(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/Mobile(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/Print(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Developing and Debugging_files/MainStyles.css" rel="stylesheet" type="text/css">
+        <script src="./Developing and Debugging_files/jquery.min.js.download" type="text/javascript">
+        </script>
+        <script src="./Developing and Debugging_files/purify.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Developing and Debugging_files/require.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Developing and Debugging_files/require.config.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Developing and Debugging_files/foundation.6.2.3_custom.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Developing and Debugging_files/plugins.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Developing and Debugging_files/MadCapAll.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Developing and Debugging_files/clipboard.min.js.download">
+        </script>
+    <meta class="foundation-mq"><meta id="ConnectiveDocSignExtentionInstalled" name="ConnectiveDocSignExtentionInstalled" data-extension-version="1.0.7"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Breakpoints.js" src="./Developing and Debugging_files/Breakpoints.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Language.js" src="./Developing and Debugging_files/Language.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Tocs/Online_Output.js" src="./Developing and Debugging_files/Online_Output.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Tocs/Online_Output_Chunk0.js" src="./Developing and Debugging_files/Online_Output_Chunk0.js.download"></script></head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="gx30io-off-canvas" data-position="right" data-mc-ignore="true" aria-hidden="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="tr1edp-drilldown" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                    <li class="tree-node tree-node-leaf" data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm">Home</a></li><li class="tree-node is-drilldown-submenu-parent" data-mc-id="1"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm" aria-expanded="true" role="button" aria-controls="submenu11fe832b-e08b-488a-ac7f-45a2a7332a16">Modules</a><ul class="vertical menu slide-in-right is-drilldown-submenu submenu is-active" id="submenu11fe832b-e08b-488a-ac7f-45a2a7332a16" data-submenu="" aria-hidden="false" role="menu" style="display: block;"><li class="js-drilldown-back tree-node is-submenu-item is-drilldown-submenu-item"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#" role="button">Back</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="3"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm">Modules</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="4"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm">Modeling data with Qlik Sense</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="5"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A247_SourcingAndLoadingData/SLD_Theory.htm">Sourcing and loading data</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="6"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A332_ResolvingCommonModelingIssues/RCMI_Theory.htm">Resolving common modeling issues</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="7"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A405_GeneratingData/GD_Theory.htm">Generating data</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="8"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm">Combining tables</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="9"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A612_HandlingAdvancedModelingChallenges/HAMC_Theory.htm">Handling advanced modeling challenges</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item tree-node-selected" data-mc-id="10"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm" class="selected" aria-current="true">Developing and Debugging</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="11"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A852_ApplyingFinishingTouches/AFT_Theory.htm">Applying finishing touches</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="12"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A913_ExploringSecurityAndAdvancedConcepts/ESAC_Theory.htm">Exploring security and advanced concepts</a></li></ul></li><li class="tree-node is-drilldown-submenu-parent" data-mc-id="2"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/BusinessCases/BusinessCasesHome.htm" aria-expanded="false" role="button">Business Cases</a></li></ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" role="banner" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#mc-main-content">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator"><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas" aria-expanded="false" aria-controls="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm"><img src="./Developing and Debugging_files/transparent.gif" alt="Logo" class="invisible-label"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                                        
+                                    <li data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm">Home</a></li><li data-mc-id="1" class="has-children"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm">Modules</a><button class="topnav-expand showOnFocus topnav-expand-toplevel" aria-label="Modules" aria-expanded="false" aria-haspopup="true">»</button></li><li data-mc-id="2" class="has-children"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/BusinessCases/BusinessCasesHome.htm">Business Cases</a><button class="topnav-expand showOnFocus topnav-expand-toplevel" aria-label="Business Cases" aria-expanded="false" aria-haspopup="true">»</button></li></ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator"><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search">
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="20wib4-accordion-menu" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True" data-mc-chunk="Data/Toc.xml">
+                                    <li class="tree-node tree-node-leaf" data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm">Home</a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="1"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm">Modules<span class="submenu-toggle-container" role="button" tabindex="0" aria-expanded="true" aria-controls="submenufdb574d4-3cac-47d2-9eef-de03ef22ed16"><span class="submenu-toggle">&nbsp;</span><span class="invisible-label">Modules&nbsp;</span></span></a><ul class="vertical menu accordion-menu is-accordion-submenu nested" id="submenufdb574d4-3cac-47d2-9eef-de03ef22ed16"><li class="tree-node tree-node-leaf" data-mc-id="3"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm">Modeling data with Qlik Sense</a></li><li class="tree-node tree-node-leaf" data-mc-id="4"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A247_SourcingAndLoadingData/SLD_Theory.htm">Sourcing and loading data</a></li><li class="tree-node tree-node-leaf" data-mc-id="5"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A332_ResolvingCommonModelingIssues/RCMI_Theory.htm">Resolving common modeling issues</a></li><li class="tree-node tree-node-leaf" data-mc-id="6"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A405_GeneratingData/GD_Theory.htm">Generating data</a></li><li class="tree-node tree-node-leaf" data-mc-id="7"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm">Combining tables</a></li><li class="tree-node tree-node-leaf" data-mc-id="8"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A612_HandlingAdvancedModelingChallenges/HAMC_Theory.htm">Handling advanced modeling challenges</a></li><li class="tree-node tree-node-leaf tree-node-selected" data-mc-id="9"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm" class="selected" aria-current="true">Developing and Debugging</a></li><li class="tree-node tree-node-leaf" data-mc-id="10"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A852_ApplyingFinishingTouches/AFT_Theory.htm">Applying finishing touches</a></li><li class="tree-node tree-node-leaf" data-mc-id="11"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A913_ExploringSecurityAndAdvancedConcepts/ESAC_Theory.htm">Exploring security and advanced concepts</a></li></ul></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="2"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/BusinessCases/BusinessCasesHome.htm">Business Cases<span class="submenu-toggle-container" role="button" tabindex="0" aria-expanded="false"><span class="submenu-toggle">&nbsp;</span><span class="invisible-label">Business Cases&nbsp;</span></span></a></li></ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True" class="height-container" style="min-height: calc(-94.1px + 100vh);">
+                                    <div id="contentBody" class="off-canvas-main">
+                                        <div class="Course_Name">
+                                            <div class="HomeWelcomePDFSection outer-row"><span class="mc-variable Course.CourseName variable">Data Modeling for Qlik Sense</span>
+                                            </div>
+                                        </div>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True" data-mc-chunk="Data/Toc.xml"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                            <a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm" class="MCBreadcrumbsLink">Modules</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Developing and Debugging</span></div>
+                                        </div>
+                                        <div role="main" id="mc-main-content">
+                                            <div class="outer-row">
+                                                <h1>Developing and Debugging</h1>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="ScreenDivider">
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Developing and Debugging_files/books_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> Objectives</h3>
+                                                        <ul>
+                                                            <li>Explain how to use script variables</li>
+                                                            <li>Describe the use of Let and Set statements</li>
+                                                            <li>Explain the use of dollar-sign expansion</li>
+                                                            <li>Load data using external scripts with Include</li>
+                                                            <li>Control the flow of script execution</li>
+                                                            <li>Explain how to debug a data load</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Developing and Debugging_files/books2_24x25.png" class="ReduceButtonSize" style="width: 24;height: 25;"> Topics</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#ControllingScriptExecution" class="MCXref xref">Controlling script execution</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#ReusingScript" class="MCXref xref">Reusing script</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#ScriptVariables" class="MCXref xref">Script Variables</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#DebuggingScript" class="MCXref xref">Debugging script</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Developing and Debugging_files/activity2_26x25.png" class="ReduceButtonSize" style="width: 26;height: 25;"> Activities</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Activity01.htm" class="MCXref xref">Activity 1: Use variables</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Activity02.htm" class="MCXref xref">Activity 2: Add an Include statement</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Activity03.htm" class="MCXref xref">Activity 3: Use a For loop to load all sheets</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Activity04.htm" class="MCXref xref">Activity 4: Debugging a data load script</a>
+                                                            </li>
+                                                        </ul>
+                                                        <h3>
+                                                            <img src="./Developing and Debugging_files/printIcon_grey11_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> PDF Activities</h3>
+                                                        <ul>
+                                                            <li><a href="DMQS_ActBook_DevelopingAndDebugging.pdf" target="_blank">Download PDF</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="PreRequisites">
+                                                    <h3>Recommended underpinning modules:</h3>
+                                                    <ul>
+                                                        <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A247_SourcingAndLoadingData/SLD_Theory.htm" class="MCXref xref">Sourcing and loading data</a>
+                                                        </li>
+                                                        <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A332_ResolvingCommonModelingIssues/RCMI_Theory.htm" class="MCXref xref">Resolving common modeling issues</a>
+                                                        </li>
+                                                        <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A405_GeneratingData/GD_Theory.htm" class="MCXref xref">Generating data</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="ScriptVariables"></a>Script Variables</h2>
+                                                <p><span class="Emphasis">Variables </span>are entities that can be assigned any text or numeric value.</p>
+                                                <p>Variables:</p>
+                                                <ul>
+                                                    <li>Are created in the script using a <span class="Emphasis"><span class="Script_Function">SET</span> </span>or a <span class="Emphasis"><span class="Script_Function">LET</span> </span>statement. <span class="Emphasis"><span class="Script_Function">SET</span> </span>assigns the text/numeric value  and <span class="Emphasis"><span class="Script_Function">LET</span> </span>evaluates the expression/calculation.</li>
+                                                    <li>Are replaced with their value, when used.</li>
+                                                    <li>Are used in the script, in chart expressions, and in other sheet objects.</li>
+                                                </ul>
+                                                <p>Some reserved variables are set by default at the start of the script and contain information to handle formatting, such as time and number values.</p>
+                                                <div class="Tip"><span class="Emphasis">Note:</span> Both script and user interface variable names are <span class="Emphasis">case-sensitive</span>.</div>
+                                                <p>To create a variable in the script:</p>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-bodybc6edd14-3596-44dd-b3d8-08199c3484a2" role="button"><img class="MCDropDown_Image_Icon" src="./Developing and Debugging_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Set</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-bodybc6edd14-3596-44dd-b3d8-08199c3484a2" style="display: none;">
+                                                        <p>Use the <span class="Emphasis"><span class="Script_Function">SET</span> </span>statement for defining script variables, which you can use for substituting strings and reserved variables.</p>
+                                                        <div class="Code"><span class="Script_Function">SET </span><span class="Script_FieldName">y</span>=3+2; <span class="Script_Comment">// value of y is “3+2”</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-bodyb01abd3f-2dea-4789-af09-5d0b674f44a8" role="button"><img class="MCDropDown_Image_Icon" src="./Developing and Debugging_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Let</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-bodyb01abd3f-2dea-4789-af09-5d0b674f44a8" style="display: none;">
+                                                        <p>The <span class="Emphasis"><span class="Script_Function">LET</span> </span>statement is used to evaluate the expression on the right side of the equals sign (=) before it is assigned to the variable.</p>
+                                                        <div class="Code"><span class="Script_Function">LET </span><span class="Script_FieldName">y</span>=<span class="Script_FixedValue">3</span>+<span class="Script_FixedValue">2</span>; <span class="Script_Comment">// value of y is “5”</span></div>
+                                                    </div>
+                                                </div>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Working with variables in the Data load editor <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">SET statement <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">LET statement <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">System variables <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Error variables <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="UIVariables"></a>User interface variables</h2>
+                                                <p><span class="Emphasis">Variables </span>can be created and used on the front-end of an app. </p>
+                                                <ul>
+                                                    <li>When you use the variable in an app, any change made to the variable is applied everywhere that variable is used.</li>
+                                                    <li> Variables are defined using the <span class="UI">Variables</span> overview. In the sheet editor, open the <span class="UI">Variables</span> overview by clicking <span class="QlikIcons">Ò</span>, located at the bottom of the <span class="UI">Assets </span>panel. <b>Advanced options</b> should be active for the <b>Variables</b>&nbsp;<span class="QlikIcons">Ò</span>, to be visible.</li>
+                                                    <li>The <span class="UI">Variables</span> overview lists all the possible variables you can use in the expressions for making calculations, based on the data in that app. When used, the variable is substituted by its value.</li>
+                                                </ul>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Using variables in expressions <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Variables overview <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Examples of using a variable in an expression <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><a href="https://youtu.be/uFT-PNf_z9g" target="_blank">Create a variable - Qlik Sense (YouTube video)</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Deleting a variable <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="ReusingScript"></a>Reusing script</h2>
+                                                <h3><a name="DollarSign"></a>Dollar-sign expansion</h3>
+                                                <p>Dollar-sign expansions are definitions of text replacements used in the
+script or in expressions. The replacement is made just before the script
+statement or when the expression is evaluated.
+</p>
+                                                <p>When using a variable for text replacement, use the following syntax:
+</p><pre>$(variablename)
+</pre>
+                                                <p><span class="Emphasis">$(variablename)</span> expands to the value in the <span class="Data">variablename</span>. If
+<span class="Data">variablename </span>does not exist, the expansion is the empty string.</p>
+                                                <p>Dollar-sign expansions can be used with:</p>
+                                                <ul>
+                                                    <li>variables</li>
+                                                    <li>parameters</li>
+                                                    <li>expressions</li>
+                                                </ul>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Dollar-sign expansions <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Dollar-sign expansion using an expression <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="IncludeFiles"></a>Include files</h2>
+                                                <p>The <span class="Emphasis"><span class="Script_Function">Include</span> </span>variable is a user-defined variable that specifies 'a file containing text to be included in the script'. The entire script can thus be put in a file. <span class="Emphasis"><span class="Script_Function">Include</span> </span>files can be used to:</p>
+                                                <ul>
+                                                    <li>Manage scripts so that a single file can contain sections of script or variable definitions. This can be updated by Data Architects without changing anything in the app.</li>
+                                                    <li>Reuse the same code in several applications, keeping logic and definitions consistent between them.</li>
+                                                    <li>Control the code version when the scripts are stored in external files.</li>
+                                                </ul>
+                                                <p>The <span class="Emphasis"><span class="Script_Function">Include</span> </span>variable can be typed as follows:</p><pre xml:space="preserve">$(Include=[lib://&lt;ConnectionName&gt;/filename])</pre>
+                                                <p><span class="Emphasis">Example:</span>
+                                                </p>
+                                                <div class="Code">$(<span class="Script_Function">Include</span>=[lib://MyDataFiles/abc.txt]);
+        </div>
+                                                <p>If you don’t already have a data connection to the folder where your text file is located, then you need to create one. Use <span class="Emphasis" style="font-family: Consolas; font-weight: normal;">lib://</span> and your data connection name before the text file reference that contains your script.</p>
+                                                <h3>Scenarios for using Include statements</h3>
+                                                <p>Storing code outside the <span class="UI">Data load editor</span> can be useful in different scenarios. The following are some examples:</p>
+                                                <ul>
+                                                    <li>Variable definitions sharing between applications. Some examples of these are:<ul><li>Paths to data sources and data connections</li><li>Color-coding in the user interface</li><li>Formula/Expression definitions</li><li>Language Dictionary</li><li>Default variables for formatting</li></ul></li>
+                                                    <li>Generic script code that can be used in any app, e.g.:<ul><li> Scripts that store all the tables of any generic app into .qvd files for backup purposes.</li><li>Scripts that generate app statistics from any application, such as table names and number of records, etc.</li></ul></li>
+                                                    <li>Procedures and function definitions</li>
+                                                    <li>Security and Access tables</li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="ControllingScriptExecution"></a>Controlling script execution</h2>
+                                                <h3><a name="ForLoop"></a>The For loop</h3>
+                                                <p>Qlik Sense accepts code loops in the <span class="UI">Data load editor</span> to help with data
+loading. Using loops allows for a more automated approach when loading
+data and makes maintenance easier.
+</p>
+                                                <p>The <span class="Emphasis"><span class="Script_Function">FOR</span> </span>loop is a script iteration that executes the piece of code inside the
+loop as many times as a condition is met. There are different variations:
+</p>
+                                                <ul>
+                                                    <li><span class="Script_Function">FOR...NEXT</span> loop uses a counter to compare it with a limit
+and determine the number of code executions. After each execution,
+the counter is increased/decreased automatically (based on the step
+parameter).</li>
+                                                    <p><span class="Emphasis">Example:</span>
+                                                    </p>
+                                                    <div class="Code"><span class="Script_Function">FOR </span><span class="Script_TableLabel">a</span>=1 TO <span class="Script_FixedValue">9</span> STEP <span class="Script_FixedValue">1</span><br><span class="Script_Function">LOAD </span>* <span class="Script_Function">FROM </span>file$(a).csv;
+<br><span class="Script_Function">NEXT</span></div>
+                                                    <p>The above example loads all the fields from all the files with filename <span class="UserInput">file1.csv ...file9.csv</span>. Nine files are loaded in total.</p>
+                                                    <li><span class="Script_Function">FOR EACH...NEXT</span> loop uses a list of values and executes the code for
+each of the items in the list.</li>
+                                                    <p><span class="Emphasis">Example:</span>
+                                                    </p>
+                                                    <div class="Code"><span class="Script_Function">FOR EACH</span> <span class="Script_TableLabel">a</span> <span class="Script_Function">IN </span><span class="Script_FixedValue">1</span>,<span class="Script_FixedValue">3</span>,<span class="Script_FixedValue">7</span>,'xyz'<br><span class="Script_Function">LOAD </span>* <span class="Script_Function">FROM </span>file$(a).csv;<br><span class="Script_Function">NEXT</span></div>
+                                                    <p>The above example loads all the fields from the following files: <span class="UserInput">file1.csv</span><span class="UserInput" style="font-weight: bold;">, </span><span class="UserInput">file3.csv, </span><span class="UserInput" style="font-weight: normal;">file7.csv</span><span class="UserInput">, </span><span class="UserInput" style="font-weight: normal;">filexyz.csv</span>. Four files are loaded in total.</p>
+                                                </ul>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">For..Next <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">For each..Next <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">More script control statements <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="DebuggingScript"></a>Debugging script</h2>
+                                                <h3><a name="DebuggerEnvironment"></a>The Debugger environment</h3>
+                                                <p>Qlik Sense has a <span class="UI">Debug </span>panel which:</p>
+                                                <ul>
+                                                    <li>Is used for identifying and isolating errors in the script.</li>
+                                                    <li>Is accessed by clicking <span class="UI">Show debug </span><span class="Emphasis_DNT">panel</span> on the <span class="UI">Data load editor</span> toolbar.</li>
+                                                    <li>Contains a toolbar to choose which panes to display from <span class="UI">Output</span>, <span class="UI">Variables</span>, and <span class="UI">Breakpoints</span>. Once activated, the <span class="UI">Debug </span>panel  is displayed at the bottom of the <span class="UI">Data load editor</span>.</li>
+                                                </ul>
+                                                <p><span class="Emphasis">Debugger components:</span>
+                                                </p>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body1efb35ce-a2f0-4642-89b6-0ce5d922c18c" role="button"><img class="MCDropDown_Image_Icon" src="./Developing and Debugging_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Debug toolbar</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body1efb35ce-a2f0-4642-89b6-0ce5d922c18c" style="display: none;">
+                                                        <p>The <span class="UI">Debug</span> toolbar provides debugging utilities to aid development:</p>
+                                                        <ul>
+                                                            <li>Step through the execution of your script by using breakpoints.</li>
+                                                            <li>Stop execution, continue until the next breakpoint is reached, or step to the next line of code.</li>
+                                                            <li>Inspect variable values and output from the script execution.</li>
+                                                            <li>Limit the load to a specific number of rows per table.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a name="Output" aria-expanded="false" aria-controls="mc-dropdown-body016e5995-8706-4bd4-8624-340d36ffb429" role="button" tabindex="0"></a><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="./Developing and Debugging_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Output</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body016e5995-8706-4bd4-8624-340d36ffb429" style="display: none;">
+                                                        <p>The <span class="UI">Output </span>button:</p>
+                                                        <ul>
+                                                            <li>Is located in the bottom-left corner of the <span class="UI">Data load editor</span>.</li>
+                                                            <li>Displays the last messages from the <span class="UI">Data load progress</span> dialog.</li>
+                                                            <li>Toggles to hide and show the <span class="UI">Output </span>dialog.</li>
+                                                        </ul>
+                                                        <p>There are two buttons on the right of the <span class="UI">Output </span>toolbar.</p>
+                                                        <ul class="mc-bullets"><span class="QlikIcons">\ </span> <span class="UI">Scroll lock</span>: Locks the output from scrolling when new messages are displayed.</ul>
+                                                        <ul class="mc-bullets"><span class="QlikIcons">¨</span> <span class="UI">Output menu</span>: Displays options to <span class="UI">Clear </span>the text, <span class="Emphasis">Select all text</span> so it can be copied, or <span class="Emphasis">Scroll to bottom</span> for the last output message.</ul>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body8a3307cc-b397-4b5a-ad1a-ef9a0693d3d0" role="button"><img class="MCDropDown_Image_Icon" src="./Developing and Debugging_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Variables</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body8a3307cc-b397-4b5a-ad1a-ef9a0693d3d0" style="display: none;">
+                                                        <p><span class="UI">Variables </span>list all favorite variables, system variables, reserved variables, and user defined variables in the script, and displays their current values during script execution.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-bodye8d16f8c-2c01-4387-a86a-5767c93a5833" role="button"><img class="MCDropDown_Image_Icon" src="./Developing and Debugging_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Breakpoints</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-bodye8d16f8c-2c01-4387-a86a-5767c93a5833" style="display: none;">
+                                                        <ul>
+                                                            <li>You can use breakpoints in your script to halt debug execution on specific lines of code and inspect variable values and output messages. </li>
+                                                            <li>When you have reached a breakpoint, you can choose to <span class="Emphasis">End </span>execution, continue to <span class="Emphasis_DNT">Run</span> until the next breakpoint is reached, or <span class="Emphasis">Step </span>to the next line of code. </li>
+                                                            <li>All breakpoints in the script are listed with a reference to script section and line number.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Debug the Data load script <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="ScreenDivider6">
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Developing and Debugging_files/Documents_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> Take Away and other related links</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/SummarySheet_DevelopingAndDebugging_DMQS.pdf" target="_blank"><span class="Emphasis_DNT">Developing and Debugging</span> summary sheet</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Developing and Debugging_files/activity2_26x25.png" class="ReduceButtonSize" style="width: 26;height: 25;"> Activities</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Activity01.htm" class="MCXref xref">Activity 1: Use variables</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Activity02.htm" class="MCXref xref">Activity 2: Add an Include statement</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Activity03.htm" class="MCXref xref">Activity 3: Use a For loop to load all sheets</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Activity04.htm" class="MCXref xref">Activity 4: Debugging a data load script</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="footer">
+                                            <div class="footer-image-container">
+                                                <div class="footer-images"><a href="http://qlik.com/" title="Qlik.com" alt="Qlik.com" target="_blank"><img src="./Developing and Debugging_files/QV_38x38.png" alttext="" class="Hyperlinked footer-logo" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="http://www.qlik.com/us/services/training" title="Qlik Training" alt="Qlik Training" target="_blank"><img src="./Developing and Debugging_files/edu_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="http://learning.qlik.com/" title="Qlik Learning Portal" alt="Qlik Learning Portal" target="_blank"><img src="./Developing and Debugging_files/QCC_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://community.qlik.com/" title="Qlik Community" alt="Qlik Community" target="_blank"><img src="./Developing and Debugging_files/Forum2_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://www.facebook.com/qlik" title="Facebook" alt="Facebook" target="_blank"><img src="./Developing and Debugging_files/facebook_grey_38x38.png" alttext="" class="Hyperlinked" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://twitter.com/qlik?lang=en-gb" title="Twitter" alt="Twitter" target="_blank"><img src="./Developing and Debugging_files/twi_grey_38x38.png" alttext="" class="Hyperlinked" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://www.linkedin.com/company/qlik" title="LinkedIn" alt="LinkedIn" target="_blank"><img src="./Developing and Debugging_files/linkin_grey_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a>
+                                                </div>
+                                            </div>
+                                            <div class="footer-copyright">
+                                                <p class="Copyright"><span class="mc-variable General.Copyright variable">© 2023 QlikTech International AB. All rights reserved. All company and/or product names may be trade names, trademarks and/or registered trademarks of the respective owners with which they are associated.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                <div class="js-off-canvas-exit"></div></div>
+            </div>
+        </div>
+    
+<div id="hl-aria-live-message-container" aria-live="polite" class="visually-hidden"></div><div id="hl-aria-live-alert-container" role="alert" aria-live="assertive" class="visually-hidden"></div></body></html>

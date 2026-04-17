@@ -1,0 +1,473 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0143)https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm -->
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="templateTopic _Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-community-features="disabled" data-mc-toc-path="Modules" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="icon" type="image/png" sizes="32x32" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Images/Qlik%20Logos/favicon-32x32.png">
+        <title>Combining tables</title>
+        <link href="./Combining tables_files/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/Styles(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/Tablet(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/Mobile(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/Print(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Combining tables_files/MainStyles.css" rel="stylesheet" type="text/css">
+        <script src="./Combining tables_files/jquery.min.js.download" type="text/javascript">
+        </script>
+        <script src="./Combining tables_files/purify.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Combining tables_files/require.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Combining tables_files/require.config.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Combining tables_files/foundation.6.2.3_custom.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Combining tables_files/plugins.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Combining tables_files/MadCapAll.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Combining tables_files/clipboard.min.js.download">
+        </script>
+    <meta class="foundation-mq"><meta id="ConnectiveDocSignExtentionInstalled" name="ConnectiveDocSignExtentionInstalled" data-extension-version="1.0.7"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Breakpoints.js" src="./Combining tables_files/Breakpoints.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Language.js" src="./Combining tables_files/Language.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Tocs/Online_Output.js" src="./Combining tables_files/Online_Output.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Tocs/Online_Output_Chunk0.js" src="./Combining tables_files/Online_Output_Chunk0.js.download"></script></head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="wn7qcn-off-canvas" data-position="right" data-mc-ignore="true" aria-hidden="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="63azwv-drilldown" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                    <li class="tree-node tree-node-leaf" data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm">Home</a></li><li class="tree-node is-drilldown-submenu-parent" data-mc-id="1"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm" aria-expanded="true" role="button" aria-controls="submenuc691aa34-ba3f-464a-863b-0a2c029a797f">Modules</a><ul class="vertical menu slide-in-right is-drilldown-submenu submenu is-active" id="submenuc691aa34-ba3f-464a-863b-0a2c029a797f" data-submenu="" aria-hidden="false" role="menu" style="display: block;"><li class="js-drilldown-back tree-node is-submenu-item is-drilldown-submenu-item"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#" role="button">Back</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="3"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm">Modules</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="4"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm">Modeling data with Qlik Sense</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="5"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A247_SourcingAndLoadingData/SLD_Theory.htm">Sourcing and loading data</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="6"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A332_ResolvingCommonModelingIssues/RCMI_Theory.htm">Resolving common modeling issues</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="7"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A405_GeneratingData/GD_Theory.htm">Generating data</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item tree-node-selected" data-mc-id="8"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm" class="selected" aria-current="true">Combining tables</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="9"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A612_HandlingAdvancedModelingChallenges/HAMC_Theory.htm">Handling advanced modeling challenges</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="10"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm">Developing and Debugging</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="11"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A852_ApplyingFinishingTouches/AFT_Theory.htm">Applying finishing touches</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="12"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A913_ExploringSecurityAndAdvancedConcepts/ESAC_Theory.htm">Exploring security and advanced concepts</a></li></ul></li><li class="tree-node is-drilldown-submenu-parent" data-mc-id="2"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/BusinessCases/BusinessCasesHome.htm" aria-expanded="false" role="button">Business Cases</a></li></ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" role="banner" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#mc-main-content">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator"><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas" aria-expanded="false" aria-controls="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm"><img src="./Combining tables_files/transparent.gif" alt="Logo" class="invisible-label"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                                        
+                                    <li data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm">Home</a></li><li data-mc-id="1" class="has-children"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm">Modules</a><button class="topnav-expand showOnFocus topnav-expand-toplevel" aria-label="Modules" aria-expanded="false" aria-haspopup="true">»</button></li><li data-mc-id="2" class="has-children"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/BusinessCases/BusinessCasesHome.htm">Business Cases</a><button class="topnav-expand showOnFocus topnav-expand-toplevel" aria-label="Business Cases" aria-expanded="false" aria-haspopup="true">»</button></li></ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator"><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search">
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="wmhr2s-accordion-menu" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True" data-mc-chunk="Data/Toc.xml">
+                                    <li class="tree-node tree-node-leaf" data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm">Home</a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="1"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm">Modules<span class="submenu-toggle-container" role="button" tabindex="0" aria-expanded="true" aria-controls="submenuad4147ce-b0a4-47a9-b907-256860db2bab"><span class="submenu-toggle">&nbsp;</span><span class="invisible-label">Modules&nbsp;</span></span></a><ul class="vertical menu accordion-menu is-accordion-submenu nested" id="submenuad4147ce-b0a4-47a9-b907-256860db2bab"><li class="tree-node tree-node-leaf" data-mc-id="3"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm">Modeling data with Qlik Sense</a></li><li class="tree-node tree-node-leaf" data-mc-id="4"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A247_SourcingAndLoadingData/SLD_Theory.htm">Sourcing and loading data</a></li><li class="tree-node tree-node-leaf" data-mc-id="5"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A332_ResolvingCommonModelingIssues/RCMI_Theory.htm">Resolving common modeling issues</a></li><li class="tree-node tree-node-leaf" data-mc-id="6"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A405_GeneratingData/GD_Theory.htm">Generating data</a></li><li class="tree-node tree-node-leaf tree-node-selected" data-mc-id="7"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm" class="selected" aria-current="true">Combining tables</a></li><li class="tree-node tree-node-leaf" data-mc-id="8"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A612_HandlingAdvancedModelingChallenges/HAMC_Theory.htm">Handling advanced modeling challenges</a></li><li class="tree-node tree-node-leaf" data-mc-id="9"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm">Developing and Debugging</a></li><li class="tree-node tree-node-leaf" data-mc-id="10"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A852_ApplyingFinishingTouches/AFT_Theory.htm">Applying finishing touches</a></li><li class="tree-node tree-node-leaf" data-mc-id="11"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A913_ExploringSecurityAndAdvancedConcepts/ESAC_Theory.htm">Exploring security and advanced concepts</a></li></ul></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="2"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/BusinessCases/BusinessCasesHome.htm">Business Cases<span class="submenu-toggle-container" role="button" tabindex="0" aria-expanded="false"><span class="submenu-toggle">&nbsp;</span><span class="invisible-label">Business Cases&nbsp;</span></span></a></li></ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True" class="height-container" style="min-height: calc(-94.1px + 100vh);">
+                                    <div id="contentBody" class="off-canvas-main">
+                                        <div class="Course_Name">
+                                            <div class="HomeWelcomePDFSection outer-row"><span class="mc-variable Course.CourseName variable">Data Modeling for Qlik Sense</span>
+                                            </div>
+                                        </div>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True" data-mc-chunk="Data/Toc.xml"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                            <a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm" class="MCBreadcrumbsLink">Modules</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Combining tables</span></div>
+                                        </div>
+                                        <div role="main" id="mc-main-content">
+                                            <div class="outer-row">
+                                                <h1>Combining tables</h1>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="ScreenDivider">
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Combining tables_files/books_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> Objectives</h3>
+                                                        <ul>
+                                                            <li>Explain the mapping tables concept</li>
+                                                            <li>Identify when to use mapping tables</li>
+                                                            <li>Identify areas to clean up in the data model</li>
+                                                            <li>Use preceding loads within the script</li>
+                                                            <li>Joining tables</li>
+                                                            <li>Explain concatenation</li>
+                                                            <li>Describe the concatenation types</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Combining tables_files/books2_24x25.png" class="ReduceButtonSize" style="width: 24;height: 25;"> Topics</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#MappingTables" class="MCXref xref">Mapping tables</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#PrecedingLoad" class="MCXref xref">Preceding Load on preceding Load</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#JoiningTables" class="MCXref xref">Joining tables</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#Concatenation" class="MCXref xref">Concatenation</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Combining tables_files/activity2_26x25.png" class="ReduceButtonSize" style="width: 26;height: 25;"> Activities</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity01.htm" class="MCXref xref">Activity 1: Map DivisionName to Customers</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity02.htm" class="MCXref xref">Activity 2 - Challenge: Map ShipperName to Orders</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity03.htm" class="MCXref xref">Activity 3: Show preceding Load on preceding Load</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity04.htm" class="MCXref xref">Activity 4: Join Categories with Products</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity05.htm" class="MCXref xref">Activity 5: Join OrderDetails and Shipments</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity06.htm" class="MCXref xref">Activity 6 - Challenge: Join more dimension tables</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity07.htm" class="MCXref xref">Activity 7: Employees concatenation</a>
+                                                            </li>
+                                                        </ul>
+                                                        <h3>
+                                                            <img src="./Combining tables_files/printIcon_grey11_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> PDF Activities</h3>
+                                                        <ul>
+                                                            <li><a href="DMQS_ActBook_CombiningTables.pdf" target="_blank">Download PDF</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="PreRequisites">
+                                                    <h3>Recommended underpinning modules:</h3>
+                                                    <ul>
+                                                        <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A247_SourcingAndLoadingData/SLD_Theory.htm" class="MCXref xref">Sourcing and loading data</a>
+                                                        </li>
+                                                        <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A332_ResolvingCommonModelingIssues/RCMI_Theory.htm" class="MCXref xref">Resolving common modeling issues</a>
+                                                        </li>
+                                                        <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A405_GeneratingData/GD_Theory.htm" class="MCXref xref">Generating data</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="MappingTables"></a>Mapping tables</h2>
+                                                <p>A mapping table is a table loaded in the <span class="UI">Data load editor</span> with a 
+<span class="Script_Function">MAPPING</span> prefix (<span class="Script_Function">MAPPING LOAD</span> or <span class="Script_Function">MAPPING SELECT</span>).
+</p>
+                                                <p>Mapping tables are treated differently from other tables:</p>
+                                                <ul>
+                                                    <li>A mapping table must have a table name and <span class="Emphasis">only </span>two columns (fields).</li>
+                                                    <li>The key field must be loaded first in the <span class="Emphasis"><span class="Script_Function">MAPPING LOAD</span> </span>statement.</li>
+                                                    <li>The two fields in the mapping table must be named, but the names are
+not relevant. Instead, the order of the fields is relevant for the mapping.
+The name of the mapping table is also relevant for the mapping.</li>
+                                                    <li>The mapping table must be loaded earlier in the script before the declaration
+of the table/tables where you apply the mapping.</li>
+                                                    <li>The <span class="Emphasis"><span class="Script_Function">ApplyMap</span> </span>function is used in other tables to map the values from
+the mapping table. Optionally, a default value can be defined if no matches are found in the mapping table:
+<br><p><code>ApplyMap('map_name', expression [, default_mapping ])</code></p></li>
+                                                    <li>When mapping a certain field value or expression, that value is compared
+to the values in the first field of the mapping table. If found, the
+original value is replaced by the corresponding value in the second
+field of the mapping table. If not found, the default value is used. If a
+default value is not specified, no replacement is made.</li>
+                                                    <li>After the script execution, these mapping tables are automatically
+dropped. They just exist during script execution.
+</li>
+                                                </ul>
+                                                <div class="Tip"><span class="Emphasis">Note: </span>Be aware that Qlik Sense does not generate a script error if the mapping
+is unable to find any matches when
+using <span class="Emphasis_DNT">ApplyMap</span>. It is always a good practice to check the values
+generated after using <span class="Emphasis_DNT">ApplyMap</span>.</div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-bodya3c8ab10-0d21-4c72-a363-aee6d8db4859" role="button"><img class="MCDropDown_Image_Icon" src="./Combining tables_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Mapping table syntax example</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-bodya3c8ab10-0d21-4c72-a363-aee6d8db4859" style="display: none;">
+                                                        <p>Statement for creating a mapping table:</p>
+                                                        <div class="Code"><span class="Script_TableLabel">Country_Map:</span>
+                                                            <br><span class="Script_Function">MAPPING LOAD</span><span class="Script_Indent"><span class="Script_FieldName">CountryCode</span>,</span><span class="Script_Indent"><span class="Script_FieldName">CountryName</span>;</span><span class="Script_Function">SQL SELECT</span> * <span class="Script_Function">FROM </span>CountryTable;</div>
+                                                        <p>The following shows the <span class="Emphasis"><span class="Script_Function">ApplyMap</span> </span>line added to the table you map to.</p>
+                                                        <div class="Code"><span class="Script_Function">ApplyMap</span>(<span class="Script_FixedValue">'Country_Map'</span>,<span class="Script_FieldName">CountryID</span>) <span class="Script_Function">AS </span><span class="Script_FieldName">Country</span><p>OR</p><span class="Script_Function">ApplyMap</span>(<span class="Script_FixedValue">'Country_Map'</span>,<span class="Script_FieldName">CountryID</span>,<span class="Script_FixedValue">'Other'</span>) <span class="Script_Function">AS </span><span class="Script_FieldName">Country</span></div>
+                                                        <p><span class="Data">CountryID </span>is a field from the table you map to. It contains the reference values to look up against the first field, <span class="Data">CountryCode</span>, in the mapping table. <span class="Emphasis">These field names can be different</span>.</p>
+                                                    </div>
+                                                </div>
+                                                <p>If the mapping is not working as expected, check the following:</p>
+                                                <ul>
+                                                    <li>Does the mapping table have the <span class="Emphasis"><span class="Script_Function">MAPPING</span> </span>prefix before <span class="Script_Function">LOAD </span>or <span class="Script_Function">SELECT </span>?</li>
+                                                    <li>Does the mapping table have a name, two fields with names, and is
+declared before applying the mapping with <span class="Script_Function">ApplyMap</span>?</li>
+                                                    <li>Is the order of the fields in the mapping table correct?</li>
+                                                    <li>Is the <span class="Emphasis"><span class="Script_Function">ApplyMap</span> </span>function using the correct mapping table name and
+the correct field name/expression?</li>
+                                                    <li>Are the values in the first field of the mapping table the same format
+as the values in the field using the <span class="Emphasis"><span class="Script_Function">ApplyMap</span> </span>function?
+</li>
+                                                </ul>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Mapping <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">ApplyMap - script function <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Using mapping as an alternative to joining <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Data cleansing <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><a href="https://community.qlik.com/t5/Qlik-Design-Blog/Don-t-join-use-Applymap-instead/ba-p/1467592" target="_blank">Don't join - use Applymap instead (by Henric Cronström)</a>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="PrecedingLoad"></a>Preceding Load on preceding Load</h2>
+                                                <p>One of the useful features of Qlik Sense is the ability to perform
+preceding <span class="Script_Function">LOAD</span> on preceding <span class="Script_Function">LOAD</span>. Additional preceding loads perform calculations on the output of another preceding <span class="Script_Function">LOAD</span>.</p>
+                                                <p>Using this technique is a great way of transforming your table even further.</p>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body2e62655d-0b7c-4df2-9b91-57468eb7f849" role="button"><img class="MCDropDown_Image_Icon" src="./Combining tables_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Preceding Load on preceding Load example</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body2e62655d-0b7c-4df2-9b91-57468eb7f849" style="display: none;">
+                                                        <p>Load <span class="Data">A</span>,<span class="Data"> B,</span> and calculated fields <span class="Data">X</span> and <span class="Data">Y</span> are loaded in the succeeding <span class="Script_Function">SELECT </span>statement from <span class="Data">Table1 </span>. From all the fields in the preceding <span class="Script_Function">LOAD</span>, two are combined, <span class="Data">A</span> and <span class="Data">X</span>, to create a new field <span class="Data">E</span>. </p>
+                                                        <p>Notice that the two <span class="Script_Function">LOAD </span>statements refer to the same <span class="Script_Function">SELECT </span>statement. Qlik Sense will execute the first one above the <span class="Script_Function">SELECT </span>statement. Once this is complete, it will execute the preceding <span class="Script_Function">LOAD </span>statement. It will keep trying to find preceding <span class="Script_Function">LOAD </span>statements until it reaches to the top of the table.</p>
+                                                        <div class="Code"><span class="Script_Function">LOAD </span>*, <span class="Script_FieldName">A</span> &amp; <span class="Script_FieldName">X</span> <span class="Script_Function">AS </span><span class="Script_FieldName">E</span>;<br><span class="Script_Function">LOAD </span><span class="Script_FieldName">A</span>, <span class="Script_FieldName">B</span>, <span class="Script_Function">if</span>(<span class="Script_FieldName">C</span>&gt;<span class="Script_FixedValue">0</span>, '<span class="Script_FixedValue">positive</span>', '<span class="Script_FixedValue">negative</span>') <span class="Script_Function">AS </span><span class="Script_FieldName">X</span>, <span class="Script_Function">weekday</span>(<span class="Script_FieldName">D</span>) <span class="Script_Function">AS </span><span class="Script_FieldName">Y</span>; <br><span class="Script_Function">SELECT </span>A, B, C, D FROM Table1;</div>
+                                                    </div>
+                                                </div>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Load <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><a href="https://community.qlik.com/t5/Qlik-Design-Blog/Preceding-Load/ba-p/1469534" target="_blank">Preceding Load (by Henric Cronström)</a>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="JoiningTables"></a>Joining tables</h2>
+                                                <p>A <span class="Script_Function">JOIN </span>is an operation that is applied to two tables and combines them into
+one.The final table contains the combination of records from the original
+tables and all the fields from both tables.</p>
+                                                <p>The <span class="Script_Function">JOIN </span>statement is defined before the <span class="Script_Function">LOAD </span>or <span class="Script_Function">SELECT </span>statement of the
+second table. It may be preceded by one of the following prefixes:</p>
+                                                <ul>
+                                                    <li><span class="Script_Function">INNER</span> — The final table only contains records presented in both tables.</li>
+                                                    <li><span class="Script_Function">OUTER</span> — All combinations between the two tables are generated. The
+final table contains all the records from both tables.</li>
+                                                    <li><span class="Script_Function">LEFT</span> — The final table only contains records presented in the first table.</li>
+                                                    <li><span class="Script_Function">RIGHT</span> — The final table only contains records in the second table.</li>
+                                                </ul>
+                                                <p><span class="Script_Function">JOIN </span>consolidates data from multiple tables into a single table based on
+the same field names between two tables. If multiple field names exist, all values in those fields must
+match, or new records can be generated depending on the <span class="Script_Function">JOIN </span>type used.
+</p>
+                                                <h4>Pros:</h4>
+                                                <ul>
+                                                    <li><span class="Emphasis">Joins </span>are good for adding multiple fields onto existing records.</li>
+                                                    <li><span class="Script_Function">LEFT</span>, <span class="Script_Function">RIGHT</span>, <span class="Emphasis"><span class="Script_Function">OUTER</span> </span>and <span class="Emphasis"><span class="Script_Function">INNER</span> </span>prefixes can be used to limit data.</li>
+                                                    <li><span class="Emphasis">Joins </span>are faster than <span class="Emphasis"><span class="Script_Function">ApplyMap</span> </span>functions.</li>
+                                                    <li><span class="Emphasis">Joins </span>can handle one-to-many relationships.</li>
+                                                </ul>
+                                                <h4>Cons:</h4>
+                                                <ul>
+                                                    <li>You can unintentionally generate new data records or duplication. This
+is especially dangerous in fact tables containing key measures.</li>
+                                                    <li>You cannot specify an alternative value if no match exists between
+tables (as you can with the third parameter of the <span class="Emphasis"><span class="Script_Function">ApplyMap</span> </span>function).</li>
+                                                </ul>
+                                                <div class="Tip"><span class="Emphasis">Note: </span>By default, if no prefix is specified, the <span class="Emphasis">Outer </span>prefix is applied.
+A bad <span class="Emphasis_DNT">Join </span>can result in significant memory penalties. In particular, if no
+field names match, a <a href="https://en.wikipedia.org/wiki/Cartesian_product" style="font-weight: bold;" target="_blank">Cartesian product</a> of the two tables is created
+when using an <span class="Emphasis_DNT">Outer Join </span>and causes an explosion of row numbers.</div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body57fe0c11-dfc1-46a2-a0de-5e7398a9c042" role="button"><img class="MCDropDown_Image_Icon" src="./Combining tables_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Example of a LEFT JOIN between two tables</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body57fe0c11-dfc1-46a2-a0de-5e7398a9c042" style="display: none;">
+                                                        <div class="Code"><span class="Script_Function">LOAD </span><span class="Script_FieldName">a</span>, <span class="Script_FieldName">b</span>, <span class="Script_FieldName">c</span> <br><span class="Script_Function">FROM </span>Table1.csv; <br><span class="Script_Function">LEFT&nbsp;JOIN</span> (Table1) <br><span class="Script_Function">LOAD </span><span class="Script_FieldName">a</span>, <span class="Script_FieldName">c</span>, <span class="Script_FieldName">d</span>, <span class="Script_FieldName">e</span> <br><span class="Script_Function">FROM </span>Table2.csv;</div>
+                                                        <p>The result is a single table called <span class="Data">Table1 </span>containing <span class="Data">a, b, c, d</span>, and <span class="Data">e</span> fields, and only the records from the original <span class="Data">Table1</span>. The records for <span class="Data">d</span> and <span class="Data">e</span> fields are only populated from <span class="Data">Table2 </span>if the values in the common fields (<span class="Data">a</span> and <span class="Data">c</span>) exist in <span class="Data">Table1</span>.</p>
+                                                    </div>
+                                                </div>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Combining tables with Join and Keep <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Join <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Outer Join <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Left Join <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Right Join <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Inner Join <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><a href="https://community.qlik.com/t5/Qlik-Design-Blog/To-Join-or-not-to-Join/ba-p/1463102" target="_blank">To Join or not to Join (by Henric Cronström)</a>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="Concatenation"></a>Concatenation</h2>
+                                                <p>Concatenation is another way to combine tables. It appends data from multiple tables into a single table.</p>
+                                                <p>There are two ways to concatenate:</p>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body13a0c24b-3fa5-40fd-9ad9-2f99f0051b6f" role="button"><img class="MCDropDown_Image_Icon" src="./Combining tables_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Automatic concatenation
+                    </a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body13a0c24b-3fa5-40fd-9ad9-2f99f0051b6f" style="display: none;">
+                                                        <p>Qlik Sense automatically concatenates the
+results of the different <span class="Script_Function">LOAD </span>or <span class="Script_Function">SELECT </span>statements into one table if the
+field names and the number of fields within two or more tables are the same:</p><div class="Code"><span class="Script_Function">LOAD </span><span class="Script_FieldName">a</span>, <span class="Script_FieldName">b</span>, <span class="Script_FieldName">c</span> <span class="Script_Function">FROM </span>Table1.csv;
+<br><span class="Script_Function">LOAD </span><span class="Script_FieldName">a</span>, <span class="Script_FieldName">c</span>, <span class="Script_FieldName">b</span> <span class="Script_Function">FROM </span>Table2.csv;</div>
+The result is a single table (<span class="Data">Table1</span>) with <span class="Data">a</span>, <span class="Data">b</span>, and <span class="Data">c</span> fields and all the
+records from <span class="Data">Table1 </span>and <span class="Data">Table2</span>.<p></p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-bodyb7e04fb9-55b1-4769-afba-023828f25be4" role="button"><img class="MCDropDown_Image_Icon" src="./Combining tables_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Forced concatenation</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-bodyb7e04fb9-55b1-4769-afba-023828f25be4" style="display: none;">
+                                                        <p>If two or more tables do not have exactly the
+same set of fields, it is still possible to force the concatenation using
+the <span class="Emphasis"><span class="Script_Function">CONCATENATE</span> </span>prefix in front of the <span class="Script_Function">LOAD </span>or <span class="Script_Function">SELECT </span>statement.
+</p>
+                                                        <div class="Code"><span class="Script_Function">LOAD </span><span class="Script_FieldName">a</span>, <span class="Script_FieldName">b</span>, <span class="Script_FieldName">c</span> <span class="Script_Function">FROM </span>Table1.csv;
+<br><span class="Script_Function">CONCATENATE</span><br><span class="Script_Function">LOAD </span><span class="Script_FieldName">a</span>, <span class="Script_FieldName">c</span> <span class="Script_Function">FROM </span>Table2.csv;
+</div>
+                                                        <p>The result is a table called <span class="Data">Table1 </span>with the <span class="Data">a</span>, <span class="Data">b</span>, and <span class="Data">c</span> fields and all the
+records of <span class="Data">Table1 </span>and <span class="Data">Table2</span>. Some <span class="Data">b</span> values are <span class="Data">NULL</span>.
+</p>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <h2><a name="PreventConcatenation"></a>Preventing concatenation</h2>
+                                                <p>
+If two tables have the same set of fields, which is usually automatically
+concatenated, you can prevent the concatenation with the
+<span class="Emphasis"><span class="Script_Function">NoConcatenate</span> </span>prefix.
+</p>
+                                                <p>This statement prevents concatenation with any existing table in the data
+model, with exactly the same fields. </p>
+                                                <p>The syntax is:
+</p><pre>NOCONCATENATE ( LoadStatement | SelectStatement )
+</pre>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-bodya3886929-2f6f-44d7-bc0a-27fe9e8e2de0" role="button"><img class="MCDropDown_Image_Icon" src="./Combining tables_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Example</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-bodya3886929-2f6f-44d7-bc0a-27fe9e8e2de0" style="display: none;">
+                                                        <div class="Code"><span class="Script_Function">LOAD </span><span class="Script_FieldName">a</span>, <span class="Script_FieldName">b</span>, <span class="Script_FieldName">c</span> <span class="Script_Function">FROM </span>Table1.csv;<br><span class="Script_Function">NOCONCATENATE</span><br><span class="Script_Function">LOAD </span><span class="Script_FieldName">a</span>, <span class="Script_FieldName">b</span>, <span class="Script_FieldName">c</span> <span class="Script_Function">FROM </span>Table2.csv;
+</div>
+                                                        <p>The result is two tables called <span class="Data">Table1 </span>and <span class="Data">Table2</span>, each with the <span class="Data">a</span>, <span class="Data">b</span>, and <span class="Data">c</span>
+fields.</p>
+                                                    </div>
+                                                </div>
+                                                <p>Just like all the other transformation techniques, concatenation has its pros and cons.</p>
+                                                <h4>Pros:</h4>
+                                                <ul>
+                                                    <li>Concatenation is good for combining multiple tables without the risk of generating new records.</li>
+                                                    <li>Concatenated data is easy to code and maintain, even as data changes.</li>
+                                                    <li>Concatenation uses less processing power than <span class="Script_Function">JOIN</span>.</li>
+                                                </ul>
+                                                <h4>Cons:</h4>
+                                                <ul>
+                                                    <li>No efficiencies are gained by combining fields, as in a <span class="Script_Function">JOIN</span>.</li>
+                                                    <li><span class="Data">NULL </span>values can be created after concatenating tables.</li>
+                                                    <li><span class="Emphasis"><span class="Script_Function">CONCATENATE</span> </span>can generate larger tables than <span class="Script_Function">JOIN</span>.</li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="ConcatenationRules"></a>Concatenation rules</h2>
+                                                <ul>
+                                                    <li>Common fields for all tables must have exactly the same name.</li>
+                                                    <li>The fields can be listed in any order in each statement.
+</li>
+                                                    <li>Unless a table name of a previously loaded table is specified in brackets
+immediately after the <span class="Script_Function">CONCATENATE</span> statement, the <span class="Script_Function">CONCATENATE</span> prefix uses the last previously created internal table. Therefore, with
+forced concatenation, the order of the statements can matter.
+</li>
+                                                    <li>To specify a table to concatenate with, but not immediately follow, put
+the table name in brackets. For the preceding example, you can use:
+<div class="Code"><span class="Script_Function">CONCATENATE </span>(<span class="Script_TableLabel">Table1</span>) <span class="Script_Function">LOAD </span><span class="Script_FieldName">a</span>, <span class="Script_FieldName">c</span> <span class="Script_Function">FROM </span>Table2.csv;</div></li>
+                                                </ul>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Concatenating tables <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Concatenate <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="ScreenDivider6">
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Combining tables_files/Documents_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> Take Away and other related links</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/SummarySheet_CombiningTables_DMQS.pdf" target="_blank"><span class="Emphasis_DNT">Combining tables</span> summary sheet</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Combining tables_files/activity2_26x25.png" class="ReduceButtonSize" style="width: 26;height: 25;"> Activities</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity01.htm" class="MCXref xref">Activity 1: Map DivisionName to Customers</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity02.htm" class="MCXref xref">Activity 2 - Challenge: Map ShipperName to Orders</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity03.htm" class="MCXref xref">Activity 3: Show preceding Load on preceding Load</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity04.htm" class="MCXref xref">Activity 4: Join Categories with Products</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity05.htm" class="MCXref xref">Activity 5: Join OrderDetails and Shipments</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity06.htm" class="MCXref xref">Activity 6 - Challenge: Join more dimension tables</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Activity07.htm" class="MCXref xref">Activity 7: Employees concatenation</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="footer">
+                                            <div class="footer-image-container">
+                                                <div class="footer-images"><a href="http://qlik.com/" title="Qlik.com" alt="Qlik.com" target="_blank"><img src="./Combining tables_files/QV_38x38.png" alttext="" class="Hyperlinked footer-logo" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="http://www.qlik.com/us/services/training" title="Qlik Training" alt="Qlik Training" target="_blank"><img src="./Combining tables_files/edu_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="http://learning.qlik.com/" title="Qlik Learning Portal" alt="Qlik Learning Portal" target="_blank"><img src="./Combining tables_files/QCC_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://community.qlik.com/" title="Qlik Community" alt="Qlik Community" target="_blank"><img src="./Combining tables_files/Forum2_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://www.facebook.com/qlik" title="Facebook" alt="Facebook" target="_blank"><img src="./Combining tables_files/facebook_grey_38x38.png" alttext="" class="Hyperlinked" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://twitter.com/qlik?lang=en-gb" title="Twitter" alt="Twitter" target="_blank"><img src="./Combining tables_files/twi_grey_38x38.png" alttext="" class="Hyperlinked" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://www.linkedin.com/company/qlik" title="LinkedIn" alt="LinkedIn" target="_blank"><img src="./Combining tables_files/linkin_grey_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a>
+                                                </div>
+                                            </div>
+                                            <div class="footer-copyright">
+                                                <p class="Copyright"><span class="mc-variable General.Copyright variable">© 2023 QlikTech International AB. All rights reserved. All company and/or product names may be trade names, trademarks and/or registered trademarks of the respective owners with which they are associated.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                <div class="js-off-canvas-exit"></div></div>
+            </div>
+        </div>
+    
+<div id="hl-aria-live-message-container" aria-live="polite" class="visually-hidden"></div><div id="hl-aria-live-alert-container" role="alert" aria-live="assertive" class="visually-hidden"></div></body></html>

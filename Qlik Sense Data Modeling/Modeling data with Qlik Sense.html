@@ -1,0 +1,737 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0155)https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm -->
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="templateTopic _Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-community-features="disabled" data-mc-toc-path="Modules" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="icon" type="image/png" sizes="32x32" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Images/Qlik%20Logos/favicon-32x32.png">
+        <title>Modeling data with Qlik Sense</title>
+        <link href="./Modeling data with Qlik Sense_files/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/Styles(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/Tablet(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/Mobile(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/Print(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Modeling data with Qlik Sense_files/MainStyles.css" rel="stylesheet" type="text/css">
+        <script src="./Modeling data with Qlik Sense_files/jquery.min.js.download" type="text/javascript">
+        </script>
+        <script src="./Modeling data with Qlik Sense_files/purify.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Modeling data with Qlik Sense_files/require.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Modeling data with Qlik Sense_files/require.config.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Modeling data with Qlik Sense_files/foundation.6.2.3_custom.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Modeling data with Qlik Sense_files/plugins.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Modeling data with Qlik Sense_files/MadCapAll.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Modeling data with Qlik Sense_files/clipboard.min.js.download">
+        </script>
+    <meta class="foundation-mq"><meta id="ConnectiveDocSignExtentionInstalled" name="ConnectiveDocSignExtentionInstalled" data-extension-version="1.0.7"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Breakpoints.js" src="./Modeling data with Qlik Sense_files/Breakpoints.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Language.js" src="./Modeling data with Qlik Sense_files/Language.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Tocs/Online_Output.js" src="./Modeling data with Qlik Sense_files/Online_Output.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Tocs/Online_Output_Chunk0.js" src="./Modeling data with Qlik Sense_files/Online_Output_Chunk0.js.download"></script></head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="l27jzo-off-canvas" data-position="right" data-mc-ignore="true" aria-hidden="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="xrs61p-drilldown" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                    <li class="tree-node tree-node-leaf" data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm">Home</a></li><li class="tree-node is-drilldown-submenu-parent" data-mc-id="1"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm" aria-expanded="true" role="button" aria-controls="submenuaa89ffda-c369-4532-b90e-75029c85f5c4">Modules</a><ul class="vertical menu slide-in-right is-drilldown-submenu submenu is-active" id="submenuaa89ffda-c369-4532-b90e-75029c85f5c4" data-submenu="" aria-hidden="false" role="menu" style="display: block;"><li class="js-drilldown-back tree-node is-submenu-item is-drilldown-submenu-item"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" role="button">Back</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="3"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm">Modules</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item tree-node-selected" data-mc-id="4"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm" class="selected" aria-current="true">Modeling data with Qlik Sense</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="5"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A247_SourcingAndLoadingData/SLD_Theory.htm">Sourcing and loading data</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="6"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A332_ResolvingCommonModelingIssues/RCMI_Theory.htm">Resolving common modeling issues</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="7"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A405_GeneratingData/GD_Theory.htm">Generating data</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="8"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm">Combining tables</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="9"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A612_HandlingAdvancedModelingChallenges/HAMC_Theory.htm">Handling advanced modeling challenges</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="10"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm">Developing and Debugging</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="11"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A852_ApplyingFinishingTouches/AFT_Theory.htm">Applying finishing touches</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="12"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A913_ExploringSecurityAndAdvancedConcepts/ESAC_Theory.htm">Exploring security and advanced concepts</a></li></ul></li><li class="tree-node is-drilldown-submenu-parent" data-mc-id="2"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/BusinessCases/BusinessCasesHome.htm" aria-expanded="false" role="button">Business Cases</a></li></ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" role="banner" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#mc-main-content">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator"><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas" aria-expanded="false" aria-controls="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm"><img src="./Modeling data with Qlik Sense_files/transparent.gif" alt="Logo" class="invisible-label"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                                        
+                                    <li data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm">Home</a></li><li data-mc-id="1" class="has-children"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm">Modules</a><button class="topnav-expand showOnFocus topnav-expand-toplevel" aria-label="Modules" aria-expanded="false" aria-haspopup="true">»</button></li><li data-mc-id="2" class="has-children"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/BusinessCases/BusinessCasesHome.htm">Business Cases</a><button class="topnav-expand showOnFocus topnav-expand-toplevel" aria-label="Business Cases" aria-expanded="false" aria-haspopup="true">»</button></li></ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator"><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search">
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="3k6lg3-accordion-menu" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True" data-mc-chunk="Data/Toc.xml">
+                                    <li class="tree-node tree-node-leaf" data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Home.htm">Home</a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="1"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm">Modules<span class="submenu-toggle-container" role="button" tabindex="0" aria-expanded="true" aria-controls="submenucdf7e2e1-341f-4e52-b106-1f8e6e96ca7d"><span class="submenu-toggle">&nbsp;</span><span class="invisible-label">Modules&nbsp;</span></span></a><ul class="vertical menu accordion-menu is-accordion-submenu nested" id="submenucdf7e2e1-341f-4e52-b106-1f8e6e96ca7d"><li class="tree-node tree-node-leaf tree-node-selected" data-mc-id="3"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm" class="selected" aria-current="true">Modeling data with Qlik Sense</a></li><li class="tree-node tree-node-leaf" data-mc-id="4"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A247_SourcingAndLoadingData/SLD_Theory.htm">Sourcing and loading data</a></li><li class="tree-node tree-node-leaf" data-mc-id="5"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A332_ResolvingCommonModelingIssues/RCMI_Theory.htm">Resolving common modeling issues</a></li><li class="tree-node tree-node-leaf" data-mc-id="6"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A405_GeneratingData/GD_Theory.htm">Generating data</a></li><li class="tree-node tree-node-leaf" data-mc-id="7"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A589_CombiningTables/CT_Theory.htm">Combining tables</a></li><li class="tree-node tree-node-leaf" data-mc-id="8"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A612_HandlingAdvancedModelingChallenges/HAMC_Theory.htm">Handling advanced modeling challenges</a></li><li class="tree-node tree-node-leaf" data-mc-id="9"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A724_DevelopingAndDebugging/DD_Theory.htm">Developing and Debugging</a></li><li class="tree-node tree-node-leaf" data-mc-id="10"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A852_ApplyingFinishingTouches/AFT_Theory.htm">Applying finishing touches</a></li><li class="tree-node tree-node-leaf" data-mc-id="11"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A913_ExploringSecurityAndAdvancedConcepts/ESAC_Theory.htm">Exploring security and advanced concepts</a></li></ul></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="2"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/BusinessCases/BusinessCasesHome.htm">Business Cases<span class="submenu-toggle-container" role="button" tabindex="0" aria-expanded="false"><span class="submenu-toggle">&nbsp;</span><span class="invisible-label">Business Cases&nbsp;</span></span></a></li></ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True" class="height-container" style="min-height: calc(-94.1px + 100vh);">
+                                    <div id="contentBody" class="off-canvas-main">
+                                        <div class="Course_Name">
+                                            <div class="HomeWelcomePDFSection outer-row"><span class="mc-variable Course.CourseName variable">Data Modeling for Qlik Sense</span>
+                                            </div>
+                                        </div>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True" data-mc-chunk="Data/Toc.xml"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                            <a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/ModulesHome.htm" class="MCBreadcrumbsLink">Modules</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Modeling data with Qlik Sense</span></div>
+                                        </div>
+                                        <div role="main" id="mc-main-content">
+                                            <div class="outer-row">
+                                                <h1>Modeling data with Qlik Sense</h1>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="ScreenDivider">
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Modeling data with Qlik Sense_files/books_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> Objectives</h3>
+                                                        <ul>
+                                                            <li>Describe the components of a Qlik Sense app</li>
+                                                            <li>State the Qlik Sense deployment options and their components</li>
+                                                            <li>Describe a relational database management system</li>
+                                                            <li>Explain different data modeling structures</li>
+                                                            <li>Understand the Qlik Sense platform</li>
+                                                            <li>Explain how to create a new app</li>
+                                                            <li>Navigate the Data load editor</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Modeling data with Qlik Sense_files/books2_24x25.png" class="ReduceButtonSize" style="width: 24;height: 25;"> Topics</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#QSApp" class="MCXref xref">Qlik Sense deployment architecture</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#rdbms" class="MCXref xref">Data sources and data structures</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#QSPlatformHub" class="MCXref xref">Working with Qlik Sense</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#CreateNewApp" class="MCXref xref">Creating a new app</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#DataLoadEditor" class="MCXref xref">Data load editor environment</a>
+                                                            </li>
+                                                        </ul>
+                                                        <p>&nbsp;</p>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Modeling data with Qlik Sense_files/activity2_26x25.png" class="ReduceButtonSize" style="width: 26;height: 25;"> Activities</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Activity01.htm" class="MCXref xref">Activity 1: Explore the hub</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Activity02.htm" class="MCXref xref">Activity 2: Navigate within an app</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Activity03.htm" class="MCXref xref">Activity 3: Create a new app</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Activity04.htm" class="MCXref xref">Activity 4 - Challenge: Add data to a Qlik Sense app</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Activity05.htm" class="MCXref xref">Activity 5: Managing script sections</a>
+                                                            </li>
+                                                        </ul>
+                                                        <h3>
+                                                            <img src="./Modeling data with Qlik Sense_files/printIcon_grey11_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> PDF Activities</h3>
+                                                        <ul>
+                                                            <li><a href="DMQS_ActBook_ModelingData.pdf" target="_blank">Download PDF</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="QSApp"></a>Qlik Sense deployment architecture</h2>
+                                                <p>An app in Qlik Sense:</p>
+                                                <ul>
+                                                    <li>Is a collection of reusable data items (<a href="https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Visualizations/visualizations.htm" target="_blank">visualizations,</a> <a href="https://help.qlik.com/en-US/search/?q=dimensions" target="_blank">dimensions,</a> <a href="https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Measures/measures.htm" target="_blank">measures</a>).</li>
+                                                    <li>Is a self-contained entity that includes the data to analyze in a structured data model.</li>
+                                                    <li>Is a binary file or a QVF file.</li>
+                                                    <li>Can contain different types of business information.</li>
+                                                    <li>Allows users to make data discoveries and decisions using data visualizations based on selections.</li>
+                                                </ul>
+                                                <p>The building blocks of an app are:</p>
+                                                <ul>
+                                                    <li>Reusable items — visualizations, bookmarks, stories</li>
+                                                    <li>Data load script — connects to a data source and retrieves the data</li>
+                                                    <li>Data model — provides structure for the loaded data</li>
+                                                    <li>Expressions — calculations involving functions, fields, and operators</li>
+                                                    <li>Measures — named calculations for use in visualizations</li>
+                                                    <li>Dimensions — named fields for use in visualizations</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online"><span class="ActType">(Click on  image to enlarge)</span>
+                                                </p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/Deployment_Architecture/images/App_components.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="1054" data-mc-height="666" src="./Modeling data with Qlik Sense_files/App_components_thumb_550_0.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: auto;mc-thumbnail-max-width: 550px;" tabindex=""></a>
+                                                </p>
+                                                <hr>
+                                                <h2><a name="QSEPlatform"></a>Qlik Sense Enterprise platform</h2>
+                                                <p><span class="Emphasis_DNT">Qlik Sense Enterprise </span>is the full version of Qlik Sense, supporting a full spectrum of analytics use cases on a multi-cloud platform.</p>
+                                                <p>Qlik Sense Enterprise can be deployed on combinations of on-premise and cloud sites, all within a fully governed, self-service oriented environment that provides scalability and trust for your organization.</p>
+                                                <ul>
+                                                    <li>Using <span class="Emphasis_DNT">Qlik Sense Enterprise on Windows</span>, you can deploy on-premise and in the cloud.</li>
+                                                    <li>For a Software as a Service (SaaS) solution, you can use <span class="Emphasis_DNT">Qlik Sense Enterprise on Cloud Services</span>, and deploy entirely in Qlik’s cloud.</li>
+                                                </ul>
+                                                <p data-mc-conditions="General.Online"><span class="ActType">(Click on each image to enlarge)</span>
+                                                </p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/Deployment_Architecture/images/QSEDeploymentOptions.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="915" data-mc-height="454" src="./Modeling data with Qlik Sense_files/QSEDeploymentOptions_thumb_550_0.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: auto;mc-thumbnail-max-width: 550px;" tabindex=""></a>
+                                                </p>
+                                                <p>&nbsp;</p>
+                                                <p>Qlik Sense Enterprise allows users to perform the following actions:</p>
+                                                <p>&nbsp;</p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/Deployment_Architecture/images/QSECapabilities.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="1163" data-mc-height="740" src="./Modeling data with Qlik Sense_files/QSECapabilities_thumb_550_0.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: auto;mc-thumbnail-max-width: 550px;" tabindex=""></a>
+                                                </p>
+                                                <p>The unified browser-based client for the above deployment options:</p>
+                                                <ul>
+                                                    <li>Allows the user to use one single HTML5 client for all creation and consumption capabilities, based on modern web technologies.</li>
+                                                    <li>Delivers all Qlik Sense functionality consistently, anywhere.</li>
+                                                    <li>Allows access from any compliant browsers, including mobile devices.</li>
+                                                </ul>
+                                                <p>The standalone Desktop client also leverages the same web technology as the Enterprise version.</p>
+                                                <p>&nbsp;</p>
+                                                <p>A typical deployment architecture for Windows can be split into three main layers:</p>
+                                                <ol>
+                                                    <li value="1">Data Access</li>
+                                                    <li value="2">Application</li>
+                                                    <li value="3">Presentation</li>
+                                                </ol>
+                                                <p data-mc-conditions="General.Online"><span class="ActType">(Click on  image to enlarge)</span>
+                                                </p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/Deployment_Architecture/images/QlikSensePlatform.PNG"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="1062" data-mc-height="640" src="./Modeling data with Qlik Sense_files/QlikSensePlatform_thumb_550_0.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: auto;mc-thumbnail-max-width: 550px;" tabindex=""></a>
+                                                </p>
+                                                <p>&nbsp;</p>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Introducing Qlik Sense <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> </span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Qlik Sense Enterprise on Windows <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> </span>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="DeploymentScenarios"></a>Deployment scenarios</h2>
+                                                <p>Qlik Sense can be deployed in different ways depending on your organization's needs. Qlik Sense offers different deployment scenarios based on volume of data, users, apps and security requirements.</p>
+                                                <p><span class="ActType">(Click on each image to enlarge)</span>
+                                                </p>
+                                                <div class="ScreenDivider">
+                                                    <div>
+                                                        <h3 style="text-align: center;">Qlik Sense Desktop</h3>
+                                                        <p style="text-align: center;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/Deployment_Architecture/images/QSD_Deployment.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="696" data-mc-height="191" src="./Modeling data with Qlik Sense_files/QSD_Deployment_thumb_0_48.png" style="mc-thumbnail: popup;width: 174px;height: 47px;" tabindex=""></a>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h3 style="text-align: center;">Qlik Cloud</h3>
+                                                        <p style="text-align: center;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/Deployment_Architecture/images/CloudQSEDeployment.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="520" data-mc-height="341" src="./Modeling data with Qlik Sense_files/CloudQSEDeployment_thumb_0_48.png" style="mc-thumbnail: popup;width: 74px;height: 46px;" tabindex=""></a>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h3 style="text-align: center;">Qlik Sense Enterprise (Windows)</h3>
+                                                        <p style="text-align: center;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/Deployment_Architecture/images/QSEDeployment.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="580" data-mc-height="377" src="./Modeling data with Qlik Sense_files/QSEDeployment_thumb_0_48.png" style="mc-thumbnail: popup;width: 73px;height: 47px;" tabindex=""></a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="ScreenDivider">
+                                                    <div>
+                                                        <h3 style="text-align: center;">Cloud-based Servers (Windows)</h3>
+                                                        <p style="text-align: center;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/Deployment_Architecture/images/CloudQSEDeployment.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="520" data-mc-height="341" src="./Modeling data with Qlik Sense_files/CloudQSEDeployment_thumb_0_48.png" style="mc-thumbnail: popup;width: 73px;height: 47px;" tabindex=""></a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Planning your Qlik Sense Enterprise deployment <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Qlik Sense Enterprise deployment examples <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Deploying Qlik Sense Enterprise in a multi-cloud environment <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Multi-cloud services <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Qlik Sense deployments to Qlik Cloud Services <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><a href="https://www.youtube.com/watch?v=S8ZJ6ETlXb4" target="_blank">Qlik Sense Enterprise on Qlik Cloud Services - Product Tour&nbsp;(video)</a>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="rdbms"></a>Data sources and data structures</h2>
+                                                <p>A traditional <span class="Emphasis">relational database</span> matches data by using common characteristics
+found within a data set. A <span class="Emphasis">data set</span> is a collection of data usually
+presented in a tabular form.</p>
+                                                <p>The <span class="Emphasis">relational database</span> is defined by several rules:</p>
+                                                <ul>
+                                                    <li>The database is structured so that information is related across multiple tables, each consisting of rows and columns.</li>
+                                                    <li>The database must support a query language.</li>
+                                                </ul>
+                                                <p>
+                                                    <img src="./Modeling data with Qlik Sense_files/Relational_Database_Tables.png">
+                                                </p>
+                                                <p>One of the most commonly used database query languages is <span class="Emphasis">SQL</span> (Structured Query Language). SQL is a special-purpose programming language, designed for managing data held in a <span class="Emphasis">RDBMS</span> (Relational Database Management System).</p>
+                                                <ul>
+                                                    <li>A SQL statement can be thought of as the smallest standalone element of a programming language.</li>
+                                                    <li>The most common SQL statement is  <span class="Emphasis">Select</span>, which queries specific result sets.</li>
+                                                    <li>A program is formed by a sequence of one or more statements.</li>
+                                                </ul>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-bodya2687a81-c3c8-486a-9eb8-c591fb1735ec" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">SQL syntax examples</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-bodya2687a81-c3c8-486a-9eb8-c591fb1735ec" style="display: none;">
+                                                        <div class="Code"><span class="Script_Function">SELECT </span>*
+<span class="Script_Function">FROM </span>Products
+<span class="Script_Function">WHERE </span>ProductID = 1004005;
+
+<span class="Script_Function">SELECT </span>ProductName, CategoryID, QuantityPerUnit, UnitPrice
+<span class="Script_Function">FROM </span>Products
+<span class="Script_Function">WHERE </span>ProductID = 1004005 OR ProductID = 1005006;</div>
+                                                    </div>
+                                                </div>
+                                                <p>Read more about <a href="https://en.wikipedia.org/wiki/Relational_database" target="_blank">relational databases</a>.</p>
+                                                <p>Read more about <span class="SearchWord">SQL <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>.</p>
+                                                <hr>
+                                                <h2><a name="DataSourceFormats"></a>Qlik Sense data source formats</h2>
+                                                <p>Qlik Sense can load data from many file formats, including:</p>
+                                                <ul>
+                                                    <li>Database tables and views (SQL query)</li>
+                                                    <li>Text files (fixed width or character delimited), such as csv</li>
+                                                    <li>Microsoft Excel spreadsheets (xls, xlsx)</li>
+                                                    <li>XML files</li>
+                                                    <li>KML files</li>
+                                                    <li>HTML tables</li>
+                                                    <li>QVD files (QlikView &amp; Qlik Sense formats)</li>
+                                                    <li>QVX files (QlikView &amp; Qlik Sense data exchange formats)</li>
+                                                </ul>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Connecting to data sources <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Loading data from databases <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Loading data from files <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="DataManager"></a>Data manager</h2>
+                                                <p>Without having to utilize a scripting language, use the <span class="UI">Data manager</span> to add and manage data from personal or public data sources. Managing data also involves:</p>
+                                                <ul>
+                                                    <li>Getting an overview of all data tables in the app</li>
+                                                    <li>Adding, editing, and deleting data tables</li>
+                                                    <li>Managing data table associations</li>
+                                                    <li>Loading data</li>
+                                                    <li>Managing automatically concatenated tables</li>
+                                                </ul>
+                                                <p>Many new features have recently been added to the <span class="UI">Data manager</span>. These features allow you to edit tables and perform basic data transformations after data is imported into your data model. To explore these new features, follow the links below:</p>
+                                                <ul>
+                                                    <li><span class="SearchWord">Editing a table <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Concatenating tables in Data manager <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Synchronizing scripted tables in Data manager <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <p>These new features are targeted for the Business Analyst role. Although it is good to know what <span class="Emphasis">Data manager </span>has to offer, this course focuses on performing these transformation steps using the script and the <span class="Emphasis">Data load editor</span>.</p>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Managing data in the app with Data manager <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Managing data associations <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="DB_vs_QS"></a>Database vs. Qlik Sense data structures</h2>
+                                                <p>There are key differences between a <b>relational database</b> data structure (like an Access database) and a Qlik Sense data structure.</p>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body72e0c830-0557-4e11-9269-2f554054bd95" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Relational database data structures</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body72e0c830-0557-4e11-9269-2f554054bd95" style="display: none;">
+                                                        <p>
+                                                            <img src="./Modeling data with Qlik Sense_files/Relational_Database_Tables.png">
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>The tables have defined relationships and are associated through common (key) fields of the same data type.</li>
+                                                    <li>A key field is either a column or a combination of columns in a database that uniquely identifies a specific entry or record.</li>
+                                                </ul>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body4e1263e6-06f9-4de8-a3f9-d9ddf4677ff5" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Qlik Sense data structures</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body4e1263e6-06f9-4de8-a3f9-d9ddf4677ff5" style="display: none;">
+                                                        <p>
+                                                            <img src="./Modeling data with Qlik Sense_files/Sense_Data_Model.png">
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>Qlik Sense allows the Data Architect to define the relationships between tables, even if the fields do not have the same name or type in the source.</li>
+                                                    <li>The table relationships or associations are automatically defined based on like-named fields.</li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="DataAssociations"></a>Data associations in Qlik Sense</h2>
+                                                <ul>
+                                                    <li>Each field loaded into Qlik Sense becomes a field in the associative data structure.</li>
+                                                    <li>Fields that exist in more than one table with identical names are
+associated and  identified as key fields.</li>
+                                                    <li>Each field can be presented in the form of a filter pane in Qlik Sense.</li>
+                                                    <li>Qlik Sense reveals logical connections based on the
+internal data structure. The values associated with your selection are
+also identified.</li>
+                                                </ul>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><a href="https://youtu.be/DuULZtyjrqU" target="_blank">The associative selection model (video)</a>
+                                                    </li>
+                                                    <li><a href="https://community.qlik.com/t5/Qlik-Design-Blog/The-Qlik-engine-A-Forgiving-Engine/ba-p/1473649" target="_blank">The Qlik engine - A Forgiving Engine</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Associations between logical tables <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Table names <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="DataModeling"></a>Qlik Sense data modeling</h2>
+                                                <p>A data model is a conceptual model that describes data relationships and how data is accessed in the system.</p>
+                                                <h3>Dimensions</h3>
+                                                <p>A dimension is used to categorize data, such as products, customers, and so on. It consists of one or more tables containing keys and attributes that describe the data values.<br></p>
+                                                <h3>Facts</h3>
+                                                <p>A fact table generally contains foreign keys of dimension tables along with measurement data, typically represented as a numeric value. Each row of the fact table is defined by the set of dimensional keys that describe the measurements. An example of a fact table is sales revenue.</p>
+                                                <h3>Star schema and snowflake schema</h3>
+                                                <p>A schema is a way to graphically represent a model  through a diagram.</p>
+                                                <p data-mc-conditions="General.Online"><span class="ActType">(Click on each image to enlarge)</span>
+                                                </p>
+                                                <div class="ScreenDivider6">
+                                                    <div style="text-align: center; padding-left: 20px; padding-right: 20px;"><span class="Emphasis">Star schema</span>
+                                                        <br>... is a data model with a single fact table or a linked table, surrounded by a set of dimension tables. The single fact table can be the result of concatenating several fact tables.<br><div class="ScreenDivider6"><div><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/DataSources_DataStructures/images/Star_Schema.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="647" data-mc-height="501" src="./Modeling data with Qlik Sense_files/Star_Schema_thumb_0_48.png" style="mc-thumbnail: popup;" tabindex=""></a></div><div><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/DataSources_DataStructures/images/Star_Schema%20-%20link.jpg"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="647" data-mc-height="501" src="./Modeling data with Qlik Sense_files/Star_Schema - link_thumb_0_48.jpg" style="mc-thumbnail: popup;" tabindex=""></a></div><br></div></div>
+                                                    <div style="text-align: center; padding-left: 20px; padding-right: 20px;"><span class="Emphasis">Snowflake schema</span>
+                                                        <br>... is a data model where the centralized fact tables (one or more) are connected to multi-level dimension tables.<br><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Resources/Snippets/Content/DataSources_DataStructures/images/Snowflake_Schema.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="685" data-mc-height="424" src="./Modeling data with Qlik Sense_files/Snowflake_Schema_thumb_0_48.png" style="mc-thumbnail: popup;" tabindex=""></a><br></div>
+                                                </div>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Dimensions <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Understanding script syntax and data structures <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><a href="https://community.qlik.com/t5/Qlik-Design-Blog/A-Myth-about-the-Number-of-Hops/ba-p/1474613" target="_blank">A Myth about the Number of Hops</a>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="QSPlatformHub"></a>Working with Qlik Sense</h2>
+                                                <p>Qlik Sense SaaS offers a Data Integration and Analytics platform where users can get actionable insights from raw data.</p>
+                                                <p style="text-align: center;">
+                                                    <img src="./Modeling data with Qlik Sense_files/platform_604x222.png" style="width: 604;height: 222;">
+                                                </p>
+                                                <p>In Analytics Services, Qlik Sense works with user data from different data sources or the data catalog. </p>
+                                                <p>The Qlik Sense SaaS platform allows users to:</p>
+                                                <ul>
+                                                    <li>Extract, transform, aggregate, combine, and associate data</li>
+                                                    <li>Visualize, analyze, search, and select data</li>
+                                                    <li>Discover and share data insights</li>
+                                                    <li>Collaborate with other in shared development areas</li>
+                                                    <li>Monitor metrics and charts and send alerts</li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="QlikSenseHub"></a>Qlik Sense Hub</h2>
+                                                <p>The data exploration starts in the Qlik Sense hub where users can create and access apps. </p>
+                                                <p>When Qlik Sense launches, the hub is displayed along with all the apps to which a user has access. </p>
+                                                <p>Apps in the Qlik Sense  hub can be shared and organized into streams or spaces. Depending on the environment, Qlik Sense Enterprise on Windows (QSEoW) or <span class="mc-variable General.CloudEditionsName2 variable">Qlik Cloud</span> (QS SaaS), these options are available:</p>
+                                                <ul>
+                                                    <li><span class="Emphasis">Work area (QSEoW) or Personal space (QS SaaS)</span>— where you edit and upload your existing apps and create new ones.</li>
+                                                    <li><span class="Emphasis">Stream (QSEoW) or Space (QS SaaS)</span>— where published apps are organized or developed collaboratively. In QSEoW, the <b>Everyone</b> stream is the default stream, but additional streams are usually created to satisfy access requirements. In QS SaaS, users and administrators can create their spaces and invite other members.</li>
+                                                </ul>
+                                                <p>Search for more info about the <span class="SearchWord">Hub </span><a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> in the Help site.</p>
+                                                <hr>
+                                                <h2><a name="QSAppOverview"></a>App overview</h2>
+                                                <p>Qlik Sense is a web-based platform that has a number of different views to work from. </p>
+                                                <p>When you open an app from the hub, the <b>App overview</b> is displayed. From there, you can:</p>
+                                                <ul>
+                                                    <li>Create and edit sheets</li>
+                                                    <li>Apply existing bookmarks to navigate to a specific sheet with selections applied</li>
+                                                    <li>Work with data storytelling and apply bookmarks</li>
+                                                </ul>
+                                                <p>The <b>App overview</b> displays a summary of the main components in the app (sheets, bookmarks, and stories). From this area, you can also open the app details section and configure global settings for the app.</p>
+                                                <p>In addition, the <b>App overview</b> can be used to navigate to different views, or work functions, categorized as:</p>
+                                                <ul>
+                                                    <li><span class="UI">Prepare</span>: Add, transform, and load data, and manage data associations. Additionally, in Qlik Sense Cloud editions, you can define the business logic to improve the <b>Insight Advisor</b> when providing insights or searches in the data.</li>
+                                                    <li><span class="UI">Analyze</span>: Navigate to existing sheets. Edit and create sheets for analysis, create new bookmarks, and generate insights.</li>
+                                                    <li><span class="UI">Narrate</span>: Create, edit, and play stories.</li>
+                                                </ul>
+                                                <p>The view of choice depends on whether you are working with the data and building a data model, exploring and discovering data, or working with data storytelling. </p>
+                                                <p>In a new app, only the <span class="UI">Prepare</span> drop-down menu is available. Once data has been added into the app, the other toolbar items become available to the user.</p>
+                                                <p>
+                                                    <img src="./Modeling data with Qlik Sense_files/NavigateOverview.jpg" style="max-width: 100%;">
+                                                </p>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body66656a06-bb09-46db-941b-eca83c75ce04" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open"></a><a name="SheetView"></a><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Sheet view</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body66656a06-bb09-46db-941b-eca83c75ce04" style="display: none;">
+                                                        <p>In the <span class="SearchWord">Sheet view </span><a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> , you can:</p>
+                                                        <ul>
+                                                            <li>Create and edit visualizations (edit mode)</li>
+                                                            <li>Analyze data</li>
+                                                            <li>Take snapshots of visualizations for building stories</li>
+                                                            <li>Work with bookmarks</li>
+                                                            <li>Add thumbnail images to sheets for easy identification</li>
+                                                            <li>Download or export most visualizations as an image, PDF, or data</li>
+                                                            <li>Copy an embed code or link to share a visualization</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body80dffdc6-e279-4846-b165-910969928d33" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open"></a><a name="InsightsView"></a><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Insights view</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body80dffdc6-e279-4846-b165-910969928d33" style="display: none;">
+                                                        <p>In the <span class="SearchWord">Insights view </span><a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> , you can:</p>
+                                                        <ul>
+                                                            <li>Generate and find new insights in your data</li>
+                                                            <li>Search in the app using natural language capabilities</li>
+                                                            <li>Identify existing visualizations or create additional ones based on the generated insights</li>
+                                                            <li>Save and create new measures based on the search results and filters</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-bodyd787fa0e-6593-4e89-9b95-59e004c81440" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open"></a><a name="Storytelling"></a><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Storytelling view</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-bodyd787fa0e-6593-4e89-9b95-59e004c81440" style="display: none;">
+                                                        <p>In the <span class="SearchWord">Storytelling view </span><a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> , you can:</p>
+                                                        <ul>
+                                                            <li>Create stories and share business insights</li>
+                                                            <li>Publish stories to share with other users</li>
+                                                            <li>
+                                                                <p>Allow users to play back a story and act on discoveries</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body2aa0963f-a08c-4ec3-b68f-44d79c585198" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open"></a><a name="DataModel"></a><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Data model viewer</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body2aa0963f-a08c-4ec3-b68f-44d79c585198" style="display: none;">
+                                                        <p>In the <span class="SearchWord">Data model viewer </span><a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> , you can:</p>
+                                                        <ul>
+                                                            <li>See an overview of the data structure of your app</li>
+                                                            <li>Display metadata about the tables and fields</li>
+                                                            <li>Create master dimensions and measures from the fields</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body87a6d499-449d-4418-8c2d-361498b3e8be" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open"></a><a name="DataLoad"></a><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Data load editor</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body87a6d499-449d-4418-8c2d-361498b3e8be" style="display: none;">
+                                                        <p>In the <span class="SearchWord">Data load editor </span><a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> , you can:</p>
+                                                        <ul>
+                                                            <li>Connect your app to data sources</li>
+                                                            <li>Create, edit, and run data load scripts to load data</li>
+                                                            <li>Use the debugging tool to diagnose script issues</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body1833a7e9-682a-49c6-a4ba-99971c217ff8" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open"></a><a name="DataManager"></a><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Data manager</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body1833a7e9-682a-49c6-a4ba-99971c217ff8" style="display: none;">
+                                                        <p>In the <span class="SearchWord">Data manager </span><a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> , you can:</p>
+                                                        <ul>
+                                                            <li>Add your data using the existing <b>Files and other sources</b> option</li>
+                                                            <li>Manage data table associations and make association recommendations with all possible table pairs</li>
+                                                            <li>Auto-generate data load script, so you can use it in your app without learning a scripting language</li>
+                                                            <li>View all data tables in the app, whether you added them using <span class="UI">Add data</span>, or loaded them using script in the <b>Data load editor</b></li>
+                                                            <li>Add, edit, and delete tables, and add calculated fields to perform various table operations</li>
+                                                            <li>Apply changes and reload data</li>
+                                                            <li>Manage automatically concatenated and joined tables</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body3c79511c-3d51-403f-852b-086ed2839f43" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open"></a><a name="Business Logic"></a><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Business logic (Logical model and Vocabulary)</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body3c79511c-3d51-403f-852b-086ed2839f43" style="display: none;">
+                                                        <p>In the <span class="SearchWord">Business logic </span><a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>, you can work on a <span class="Emphasis_DNT">Logical model</span> and the <span class="Emphasis_DNT">Vocabulary</span> sections to:</p>
+                                                        <ul>
+                                                            <li>Define the business rules and metadata to customize and guide insight generation and interaction. </li>
+                                                            <li>Group fields in data categories and classify each field based on data classes.</li>
+                                                            <li>Define the default aggregation for each field.</li>
+                                                            <li>Decide to include or exclude data values in the <b>Lookup</b> operation at field level. </li>
+                                                            <li>Hide or show fields from the <b>Insight Advisor</b> field list and search.</li>
+                                                            <li>
+                                                                <p>Create vocabularies for <b>Insight Advisor</b> defining terms and values that may be used in queries that are not present in your data model.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <p>In a Qlik Sense app, the following building blocks are:</p>
+                                                <ul>
+                                                    <li>Data load script — connects to a data source and retrieves the data</li>
+                                                    <li>Data model — provides structure for the loaded data</li>
+                                                    <li>Expressions — calculations involving functions, fields, and operators</li>
+                                                    <li>Measures — numerical data fields calculated for use in visualizations</li>
+                                                    <li>Dimensions — named fields for use in visualizations</li>
+                                                    <li>Visualizations  — chart objects and other sheet objects that represent data</li>
+                                                    <li>Bookmarks — stored data selections that can be applied by users</li>
+                                                </ul>
+                                                <p><!--[CDATA[
+        ]]--></p>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="CreateNewApp"></a>Creating a new app</h2>
+                                                <p>To create a new app within the Qlik Sense hub, use the <span class="UI">Add new</span> button from the toolbar, and select <span class="UI">New analytics app.</span></p>
+                                                <p>To upload an app, use the same <span class="UI">Add new</span> button from the toolbar, but select <span class="UI">Upload app</span>. To successfully complete this process, the data connections must be re-created. Ensure that the app has access to the data sources if a reload is needed.</p>
+                                                <div class="Tip"><span class="Emphasis">Note:</span> From the Qlik Sense hub, you can also duplicate an existing app. This creates a new app in the hub that can be renamed and edited.</div>
+                                                <hr>
+                                                <h2><a name="DataLoad"></a>Loading data using drag and drop</h2>
+                                                <p>The drag and drop data load is a Qlik Sense feature that:</p>
+                                                <ul>
+                                                    <li>Allows users to quickly load local data by dragging and dropping files into their app or by making quick file selections.</li>
+                                                    <li>Does not need to create data source connections or write load scripts.</li>
+                                                    <li>Can load data from different file types, such as Excel, .txt, .csv, or .qvd. It is useful if the data is in a tabular format, cleansed, and has headers.</li>
+                                                    <li>Is supported in <span class="Emphasis">Qlik Sense Saas </span>and<span class="Emphasis"> Qlik Sense on Windows</span>.</li>
+                                                    <li>Is available from the <span class="UI">Add data</span> option. When an app is opened for the first time or no data exists, this option is displayed in the <span class="UI">App overview</span>. You can also access the <span class="UI">Add data</span> option from the <span class="UI">Navigation </span>menu.</li>
+                                                </ul>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Creating your first app <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Adding data to the app <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="DataLoadEditor"></a>Data load editor environment</h2>
+                                                <p>The <span class="UI">Data load editor</span> is:</p>
+                                                <ul>
+                                                    <li>An embedded editor to create and edit a data load script for a data model.</li>
+                                                    <li>Used to define <span class="UI">Data connections</span> for multiple data sources, extract data from them, and load the data into the app.</li>
+                                                </ul>
+                                                <p>You can type a script manually, generate it automatically, or even read it from an external source. After you have loaded the data and the data model is created, it is available within the app for analysis through visualizations.</p>
+                                                <p>The <span class="UI">Data load editor</span> components are:</p>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body68668ec6-3a98-454f-bd78-c41f47701057" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Toolbar</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body68668ec6-3a98-454f-bd78-c41f47701057" style="display: none;">
+                                                        <p>The toolbar contains the<span class="UI">Navigation </span>menu<span class="UI"></span> and other useful commands.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body2f234b53-f8f4-463f-ba01-bcb4d9e3982d" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Data connections</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body2f234b53-f8f4-463f-ba01-bcb4d9e3982d" style="display: none;">
+                                                        <p>In <span class="UI">Data connections, </span>commonly used shortcuts to data sources (databases work flows or remote files) can be created and saved.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body0b05cf94-5fe3-4893-b31b-bdc2ec0d1981" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Text editor</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body0b05cf94-5fe3-4893-b31b-bdc2ec0d1981" style="display: none;">
+                                                        <p>The <span class="UI">Text editor </span>is where you edit the script code. Each script line is numbered and the script is color-coded by syntax components.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body45c56bfa-5548-41ba-a8cf-9afaaaecd689" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Sections</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body45c56bfa-5548-41ba-a8cf-9afaaaecd689" style="display: none;">
+                                                        <p><span class="UI">Sections</span> contains the names of related script. If you have added data using <span class="UI">Add data</span>, you will have a data load script section named <span class="UI">Auto-generated section</span> that contains the script code required to load the data.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown" data-mc-state="closed"><span class="MCDropDownHead dropDownHead"><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Theory.htm#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false" aria-controls="mc-dropdown-body88ca94a4-1644-4291-9a09-8e39da589e2d" role="button"><img class="MCDropDown_Image_Icon" src="./Modeling data with Qlik Sense_files/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open">Output</a></span>
+                                                    <div class="MCDropDownBody dropDownBody" id="mc-dropdown-body88ca94a4-1644-4291-9a09-8e39da589e2d" style="display: none;">
+                                                        <p><span class="UI">Output</span> displays all messages that are generated during data load.</p>
+                                                    </div>
+                                                </div>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li style="font-weight: bold;"><span class="SearchWord">Data load editor <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Using the data load editor <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Edit the data load script <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Organizing the script code <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Run the script to load data <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="ScriptSections"></a>Script sections</h2>
+                                                <p>When you create a new app, only one script section exists. However, you may create new sections to divide the load script and organize the structure, making it easier to work with and maintain. </p>
+                                                <p><span class="Emphasis">Sections:</span>
+                                                </p>
+                                                <ul>
+                                                    <li>Are executed sequentially in top to bottom order from the <span class="Emphasis_DNT">Sections</span> panel.</li>
+                                                    <li>Can be renamed and moved to change the order of script execution, if required.</li>
+                                                </ul>
+                                                <p>The default section is called <span class="UI">Main</span> and contains a number of initial <span class="Script_Function">SET</span> statements to establish the default setting for the environment. It is best practice to leave these <span class="Script_Function">SET</span> statements at the beginning of the script.</p>
+                                                <p>When using the <span class="UI">Data manager</span> to add data, locked <span class="UI">Auto-generated sections</span> are created.</p>
+                                                <p>These sections:</p>
+                                                <ul>
+                                                    <li>Are created when using the <span class="UI">Add data </span>option. Qlik Sense uses the <span class="UI">Data manager</span> to generate its own script sections.</li>
+                                                    <li>Have a <span class="QlikIcons"><img src="./Modeling data with Qlik Sense_files/Auto Generated Lock_13x15.jpg" style="font-size: 16pt;width: 13;height: 15;"></span> symbol on the right, to indicate they are read-only.</li>
+                                                    <li>Can be viewed by clicking on them.</li>
+                                                    <li>Display a warning in the script area to indicate that the section was auto-generated by the <span class="UI">Data manager</span>.</li>
+                                                    <li>Can be automatically updated by the <span class="UI">Data manager</span>.</li>
+                                                    <li>Can be modified by clicking the <span class="Emphasis">Unlock</span> button. This detaches the auto-generated section from the <span class="UI">Data manager</span> and the section is not an auto-generated section anymore.</li>
+                                                </ul>
+                                                <div class="Tip"><span class="Emphasis">Note:</span> If you unlock the auto-generated script, you will not be able to edit the data with the <span class="UI">Data manager</span>. Unlocking cannot be undone.</div>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Organizing the script code <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Edit the data load script <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                    <li><span class="SearchWord">Synchronizing scripted tables in Data manager <a class="HelpLink" href="http://help.qlik.com/en-US/cloud-services/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></span>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="ScreenDivider6">
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Modeling data with Qlik Sense_files/Documents_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> Take Away and other related links</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/SummarySheet_ModelingDataWithQlikSense_DMQS.pdf" target="_blank"><span class="Emphasis_DNT">Modeling data with Qlik Sense</span> summary sheet</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Modeling data with Qlik Sense_files/activity2_26x25.png" class="ReduceButtonSize" style="width: 26;height: 25;"> Activities</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Activity01.htm" class="MCXref xref">Activity 1: Explore the hub</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Activity02.htm" class="MCXref xref">Activity 2: Navigate within an app</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Activity03.htm" class="MCXref xref">Activity 3: Create a new app</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Activity04.htm" class="MCXref xref">Activity 4 - Challenge: Add data to a Qlik Sense app</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/329904/mod_resource/content/59/OnlineManual/Content/Modules/DA_14A135_ModelingDataWithQlikSense/MDQS_Activity05.htm" class="MCXref xref">Activity 5: Managing script sections</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="footer">
+                                            <div class="footer-image-container">
+                                                <div class="footer-images"><a href="http://qlik.com/" title="Qlik.com" alt="Qlik.com" target="_blank"><img src="./Modeling data with Qlik Sense_files/QV_38x38.png" alttext="" class="Hyperlinked footer-logo" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="http://www.qlik.com/us/services/training" title="Qlik Training" alt="Qlik Training" target="_blank"><img src="./Modeling data with Qlik Sense_files/edu_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="http://learning.qlik.com/" title="Qlik Learning Portal" alt="Qlik Learning Portal" target="_blank"><img src="./Modeling data with Qlik Sense_files/QCC_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://community.qlik.com/" title="Qlik Community" alt="Qlik Community" target="_blank"><img src="./Modeling data with Qlik Sense_files/Forum2_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://www.facebook.com/qlik" title="Facebook" alt="Facebook" target="_blank"><img src="./Modeling data with Qlik Sense_files/facebook_grey_38x38.png" alttext="" class="Hyperlinked" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://twitter.com/qlik?lang=en-gb" title="Twitter" alt="Twitter" target="_blank"><img src="./Modeling data with Qlik Sense_files/twi_grey_38x38.png" alttext="" class="Hyperlinked" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://www.linkedin.com/company/qlik" title="LinkedIn" alt="LinkedIn" target="_blank"><img src="./Modeling data with Qlik Sense_files/linkin_grey_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a>
+                                                </div>
+                                            </div>
+                                            <div class="footer-copyright">
+                                                <p class="Copyright"><span class="mc-variable General.Copyright variable">© 2023 QlikTech International AB. All rights reserved. All company and/or product names may be trade names, trademarks and/or registered trademarks of the respective owners with which they are associated.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                <div class="js-off-canvas-exit"></div></div>
+            </div>
+        </div>
+    
+<div id="hl-aria-live-message-container" aria-live="polite" class="visually-hidden"></div><div id="hl-aria-live-alert-container" role="alert" aria-live="assertive" class="visually-hidden"></div></body></html>
