@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<!-- saved from url=(0149)https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm -->
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="templateTopic _Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-community-features="disabled" data-mc-toc-path="Modules" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="icon" type="image/png" sizes="32x32" href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Resources/Images/Qlik%20Logos/favicon-32x32.png">
+        
+        <meta name="description" content="">
+        <meta name="author" content=""><title>Preparing data for analysis</title>
+        <link href="./Preparing data for analysis_files/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Preparing data for analysis_files/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Preparing data for analysis_files/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Preparing data for analysis_files/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Preparing data for analysis_files/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Preparing data for analysis_files/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Preparing data for analysis_files/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Preparing data for analysis_files/Styles(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Preparing data for analysis_files/Tablet(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Preparing data for analysis_files/Mobile(1).css" rel="stylesheet" type="text/css" data-mc-generated="True">
+        <link href="./Preparing data for analysis_files/MainStyles.css" rel="stylesheet" type="text/css">
+        <script src="./Preparing data for analysis_files/jquery.min.js.download" type="text/javascript">
+        </script>
+        <script src="./Preparing data for analysis_files/purify.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Preparing data for analysis_files/require.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Preparing data for analysis_files/require.config.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Preparing data for analysis_files/foundation.6.2.3_custom.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Preparing data for analysis_files/plugins.min.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Preparing data for analysis_files/MadCapAll.js.download" type="text/javascript" defer="defer">
+        </script>
+        <script src="./Preparing data for analysis_files/clipboard.min.js.download">
+        </script>
+    <meta class="foundation-mq"><meta id="ConnectiveDocSignExtentionInstalled" name="ConnectiveDocSignExtentionInstalled" data-extension-version="1.0.7"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Breakpoints.js" src="./Preparing data for analysis_files/Breakpoints.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Language.js" src="./Preparing data for analysis_files/Language.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Tocs/Online_Output.js" src="./Preparing data for analysis_files/Online_Output.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../../Data/Tocs/Online_Output_Chunk0.js" src="./Preparing data for analysis_files/Online_Output_Chunk0.js.download"></script></head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="tlpn5x-off-canvas" data-position="right" data-mc-ignore="true" aria-hidden="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="pzfcll-drilldown" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                    <li class="tree-node tree-node-leaf" data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Home.htm">Home</a></li><li class="tree-node is-drilldown-submenu-parent" data-mc-id="1"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/ModulesHome.htm" aria-expanded="true" role="button" aria-controls="submenu33def7db-6095-4da9-a64b-4f8b83b5978f">Modules</a><ul class="vertical menu slide-in-right is-drilldown-submenu submenu is-active" id="submenu33def7db-6095-4da9-a64b-4f8b83b5978f" data-submenu="" aria-hidden="false" role="menu" style="display: block;"><li class="js-drilldown-back tree-node is-submenu-item is-drilldown-submenu-item"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm#" role="button">Back</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="4"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/ModulesHome.htm">Modules</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="5"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A100_OverviewSelectingSearching/Theory.htm">Overview, selecting and searching data</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item tree-node-selected" data-mc-id="6"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm" class="selected" aria-current="true">Preparing data for analysis</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="7"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A102_CreatingVisualAnalytics/Theory.htm">Creating visual analytics</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="8"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A103_WorkingWithOtherVisualizations/Theory.htm">Working with other visualizations and properties</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="9"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A104_ControllingDataSelections/Theory.htm">Controlling data selections</a></li><li class="tree-node tree-node-leaf is-submenu-item is-drilldown-submenu-item" data-mc-id="10"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A105_SharingMonitoringFinalizing/Theory.htm">Sharing insights, monitoring and finalizing the app</a></li></ul></li><li class="tree-node is-drilldown-submenu-parent" data-mc-id="2"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/BusinessCases/BusinessCasesOverview.htm" aria-expanded="false" role="button">Business Cases</a></li><li class="tree-node tree-node-leaf" data-mc-id="3"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/TakeAwayDoc/TakeAwayDocs.htm">Other resources</a></li></ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" role="banner" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm#mc-main-content">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator"><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas" aria-expanded="false" aria-controls="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Home.htm"><img src="./Preparing data for analysis_files/transparent.gif" alt="Logo" class="invisible-label"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True" data-mc-chunk="Data/Toc.xml">
+                                        
+                                    <li data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Home.htm">Home</a></li><li data-mc-id="1" class="has-children"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/ModulesHome.htm">Modules</a><button class="topnav-expand showOnFocus topnav-expand-toplevel" aria-label="Modules" aria-expanded="false" aria-haspopup="true">»</button></li><li data-mc-id="2" class="has-children"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/BusinessCases/BusinessCasesOverview.htm">Business Cases</a><button class="topnav-expand showOnFocus topnav-expand-toplevel" aria-label="Business Cases" aria-expanded="false" aria-haspopup="true">»</button></li><li data-mc-id="3"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/TakeAwayDoc/TakeAwayDocs.htm">Other resources</a></li></ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator"><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search">
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="nhcb5t-accordion-menu" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True" data-mc-chunk="Data/Toc.xml">
+                                    <li class="tree-node tree-node-leaf" data-mc-id="0"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Home.htm">Home</a></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="1"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/ModulesHome.htm">Modules<span class="submenu-toggle-container" role="button" tabindex="0" aria-expanded="true" aria-controls="submenu2a5ecd1c-3bfa-4bce-88f9-d1c2a565bd36"><span class="submenu-toggle">&nbsp;</span><span class="invisible-label">Modules&nbsp;</span></span></a><ul class="vertical menu accordion-menu is-accordion-submenu nested" id="submenu2a5ecd1c-3bfa-4bce-88f9-d1c2a565bd36"><li class="tree-node tree-node-leaf" data-mc-id="4"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A100_OverviewSelectingSearching/Theory.htm">Overview, selecting and searching data</a></li><li class="tree-node tree-node-leaf tree-node-selected" data-mc-id="5"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm" class="selected" aria-current="true">Preparing data for analysis</a></li><li class="tree-node tree-node-leaf" data-mc-id="6"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A102_CreatingVisualAnalytics/Theory.htm">Creating visual analytics</a></li><li class="tree-node tree-node-leaf" data-mc-id="7"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A103_WorkingWithOtherVisualizations/Theory.htm">Working with other visualizations and properties</a></li><li class="tree-node tree-node-leaf" data-mc-id="8"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A104_ControllingDataSelections/Theory.htm">Controlling data selections</a></li><li class="tree-node tree-node-leaf" data-mc-id="9"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A105_SharingMonitoringFinalizing/Theory.htm">Sharing insights, monitoring and finalizing the app</a></li></ul></li><li class="tree-node is-accordion-submenu-parent" data-mc-id="2"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/BusinessCases/BusinessCasesOverview.htm">Business Cases<span class="submenu-toggle-container" role="button" tabindex="0" aria-expanded="false"><span class="submenu-toggle">&nbsp;</span><span class="invisible-label">Business Cases&nbsp;</span></span></a></li><li class="tree-node tree-node-leaf" data-mc-id="3"><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/TakeAwayDoc/TakeAwayDocs.htm">Other resources</a></li></ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True" class="height-container" style="min-height: calc(-94.1px + 100vh);">
+                                    <div id="contentBody" class="off-canvas-main">
+                                        <div class="Course_Name">
+                                            <div class="HomeWelcomePDFSection outer-row"><span class="mc-variable Course.CourseName variable">Create Visualizations with Qlik Sense</span>
+                                            </div>
+                                        </div>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True" data-mc-chunk="Data/Toc.xml"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                            <a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/ModulesHome.htm" class="MCBreadcrumbsLink">Modules</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Preparing data for analysis</span></div>
+                                        </div>
+                                        <div role="main" id="mc-main-content">
+                                            <div class="outer-row">
+                                                <h1><a name="Lesson4"></a>Preparing data for analysis</h1>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="ScreenDivider">
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Preparing data for analysis_files/books_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> Objectives</h3>
+                                                        <ul>
+                                                            <li>Learn how to load data from a file into an app and create associations</li>
+                                                            <li>Work with the Data manager and Data model viewer areas in the app</li>
+                                                            <li>Define the logical model and vocabulary to work with Insight Advisor</li>
+                                                            <li>Discuss the use of a master dimensions and measures and reusable items in the app</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Preparing data for analysis_files/books2_24x25.png" class="ReduceButtonSize" style="width: 24;height: 25;"> Topics</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm#AddingData" class="MCXref xref">Adding data</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm#DataManager" class="MCXref xref">Managing data</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm#DataModelViewer" class="MCXref xref">Data review</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm#Associations" class="MCXref xref">Data associations</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm#VisualDataPrep" class="MCXref xref">Visual data preparation</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm#BusinessLogic" class="MCXref xref">Defining the business logic</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Theory.htm#MasterItems" class="MCXref xref">Reusable items and object library</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Preparing data for analysis_files/activity2_26x25.png" class="ReduceButtonSize" style="width: 26;height: 25;"> Activities</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Activity1_PDFA.htm" class="MCXref xref">Activity 1: Prepare data for a new app</a> </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Activity2_PDFA.htm" class="MCXref xref">Activity 2: Define master dimensions and measures</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Activity3_PDFA.htm" class="MCXref xref">Activity 3: Create calendar measures</a>
+                                                            </li>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Activity4_PDFA.htm" class="MCXref xref">Activity 4: Define the business logic</a>
+                                                            </li>
+                                                        </ul>
+                                                        <h3>
+                                                            <img src="./Preparing data for analysis_files/printIcon_grey11_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> PDF Activities</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Resources/PDF/BusinessCases/AT_BusinessCases_AdvancedSetAnalysis.pdf" target="_blank"></a><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Resources/PDF/ActivityBook/CVQS_ActBook_PreparingDataForAnalysis.pdf" target="_blank">Download PDF</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="PreRequisites">
+                                                    <h4>Recommended underpinning modules</h4>
+                                                    <ul>
+                                                        <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A100_OverviewSelectingSearching/Theory.htm" class="MCXref xref">Overview, selecting and searching data</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="AddingData"></a>Adding data</h2>
+                                                <p>There are different ways to add data to a Qlik Sense app:</p>
+                                                <ul>
+                                                    <li><span class="UI">Data manager </span>— Available from the <span class="UI">Prepare</span> section. This option allows users to load and transform data without learning a scripting language.</li>
+                                                    <li><span class="UI">Data load editor </span>—  Available from the <span class="UI">Prepare</span> section. This option launches the <span class="UI">Script editor</span> that allows more technical users to load and transform data using load statements and script syntax. </li>
+                                                    <div class="Tip"><span class="Emphasis">Note:</span> The tables that have been loaded using this method are called scripted tables. Initially these tables cannot be edited in the same way as the tables added using the Add data option, but you can <span class="UI">Synchronize scripted tables</span> using Data manager to unlock all the tools found within the Data manager.</div>
+                                                </ul>
+                                                <p>When you create a new app, you have different options:</p>
+                                                <ul>
+                                                    <li><span class="UI">Files and other sources</span>, so you can select the field you want to load from those files, and transform them using the Data manager, ideally for users with little or no experience with a scripting language. Using this option, you can also enter data manually with <b>Manual entry</b>, or add data from a data connection.</li>
+                                                    <li><b>Data catalog</b>, that allows you to load data from files available in the spaces which you have access to or loaded by you previously.</li>
+                                                    <p class="Tip">
+                                                        </p><div class="Tip"><span class="Emphasis">Note</span>: When using these two options, you can define whether the Data profiling feature is on or off when selecting the table fields. Use the menu <span class="QlikIcons">¥</span> at the bottom right of the screen.
+				</div>
+                                                    <p></p>
+                                                    <p class="Tip">
+                                                        </p><div class="Tip"><span class="Emphasis">Note</span>: This option is only available in Qlik Cloud editions. If you are working with Qlik Sense Client-managed versions, use one of the other options to load data to your app.
+				</div>
+                                                    <p></p>
+                                                    <li> Open the <span class="UI">Script editor</span>, to create the data load syntax to load the data and connect to the data sources.</li>
+                                                </ul>
+                                                <p>When loading data into the app using either method, you can also determine what tables, columns (fields), and rows (applying filters) are loaded into the app. Also, you can apply filters to tables to limit the records being loaded in the app using conditions.</p>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Adding data to the app </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Connecting to data sources</span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="SearchWord">Date &amp; time fields </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                        </p>
+                                                    </li>
+                                                    <li><span class="SearchWord">Managing data </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Loading data from files</span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Loading data from Microsoft Excel </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Selecting data fields </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Filtering data from files </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><a href="https://www.youtube.com/watch?v=zxdvD8dqIEs" target="_blank">Loading and preparing data from Microsoft Excel spreadsheets (video)</a>
+                                                    </li>
+                                                    <li><a href="https://www.youtube.com/watch?v=0BdAM_Xyq_w" target="_blank">Associating data in the table editor (video)</a>
+                                                    </li>
+                                                    <li><a href="https://help.qlik.com/en-US/video/Nck5rRwL6wUTMXyYHJJHcJ" target="_blank">Loading data from Data catalog (video)</a>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="DataManager"></a>Managing data</h2>
+                                                <p>You can use the<span class="UI"><span class="SearchWord"> Data manager </span> </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> to add and manage data from your own data sources using a graphical user interface, so that you can use it in your app without learning a scripting language. </p>
+                                                <p>Use  Data manager to:</p>
+                                                <ul>
+                                                    <li>Get an overview of all data tables in the app</li>
+                                                    <li>Add, edit, and delete data tables</li>
+                                                    <li>Manage data table associations</li>
+                                                    <li>Load data and apply filters to the tables</li>
+                                                    <li>Review data source and change any existing filters</li>
+                                                    <li>Manage automatically concatenated tables (tables that contain the same structure)</li>
+                                                    <li>Concatenate tables that do not have the same structure (field names)</li>
+                                                    <li>Automatically generate fields for geo data and dates</li>
+                                                    <li>Associate tables and data based on recommended associations</li>
+                                                    <li>View data profiling cards that include a preview of the field values and their distribution</li>
+                                                    <li>Enter data manually by typing the data into a dialog (<span class="SearchWord">Adding data manually </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>)</li>
+                                                    <li>Unpivot a cross table</li>
+                                                    <li>Create calculated fields and transform the existing fields in tables, some of the field operations include: <ul><li><span class="SearchWord">Replacing field values </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li><li><span class="SearchWord">Splitting a field </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li><li><span class="SearchWord">Customizing the order of dimension values </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li><li><span class="SearchWord">Grouping measure data into ranges </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li><li><span class="SearchWord">Setting field values as NULL </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li><li><span class="SearchWord">Changing field types </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li></ul></li>
+                                                </ul>
+                                                <p>All of these operations can be performed sequentially in tables and fields. This allows you to use the data profiling cards, concatenation, calculated fields, and unpivoting data together in the same table.</p>
+                                                <p>You can view the operations and transformations performed in tables and fields in the Data manager using the <span class="UI">View details</span> dialog. Select the table and then select the menu <span class="QlikIcons">¥</span> at the bottom to <span class="SearchWord">view table and field transformation details in Data manager </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>.</p>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Loading and managing data with Data Manager </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><a href="https://www.youtube.com/watch?v=SCd-Tg-veAI" target="_blank">Adding data using Data manager (video)</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Editing a table </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><a href="https://www.youtube.com/watch?v=Nhdum6XQudA" target="_blank">Editing a table with data profiling cards (video)</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Using calculated fields </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Changing field types </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Loading your own map data </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Unpivoting crosstable data in Data manager </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> - See also this <a href="https://www.youtube.com/watch?v=R_d2pk1DjzU" target="_blank">video</a></li>
+                                                    <li><span class="SearchWord">Concatenating tables in Data manager </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a><!--[CDATA[			]]--></li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="DataModelViewer"></a>Data review</h2>
+                                                <p>After data has been loaded in the app, you can review the data tables and the associations using the <span class="SearchWord">Data model viewer </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> available under the <span class="UI">Prepare</span> section. </p>
+                                                <ul>
+                                                    <li>It shows all the existing tables loaded into the app and how they are associated. </li>
+                                                    <li>It also allows you to preview the tables and create master dimensions and measures.</li>
+                                                </ul>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Viewing and transforming the data model </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Previewing tables and fields in the data model viewer </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Creating a master dimension from the data model viewer </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Creating a master measure from the data model viewer </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="Associations"></a>Data associations</h2>
+                                                <p>When loading tables with the Data manager, you can also manage the associations between tables. </p>
+                                                <ul>
+                                                    <li>It is important to associate your data in order to make all of the data set react to your selections when performing the data analysis. </li>
+                                                    <li>Data manager provides some help associating the data from different tables based on a data analysis that is performed while the data is loaded.</li>
+                                                </ul>
+                                                <p>The <span class="UI">Associations</span> view in Data manager can aid you in:</p>
+                                                <ul>
+                                                    <li><span class="SearchWord">Managing data associations </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Concatenating tables in Data manager </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> - See also this <a href="https://www.youtube.com/watch?time_continue=7&amp;v=yQAZOYY_Cjg" target="_blank">video</a></li>
+                                                    <li><span class="SearchWord">Synchronizing scripted tables </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                </ul>
+                                                <p>There are some limitations where the association recommendations are not provided:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>Many-to-many relationships</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Field pairs with data that do not match well in both directions</p>
+                                                    </li>
+                                                    <li>Compound key associations</li>
+                                                </ul>
+                                                <p>You can also manage associations in Data manager from the <span class="UI">Tables</span> view (<span class="SearchWord">Associating data in the Table editor </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>).</p>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Managing data </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Previewing tables and fields </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                </ul>
+                                                <hr>
+                                                <h2><a name="VisualDataPrep"></a>Visual data preparation</h2>
+                                                <p>This  feature in the Data manager allows users to visually prepare data to load for analysis. </p>
+                                                <p>It can be launched from the <span class="UI">Prepare &gt; Data manager &gt; Associations</span> section.</p>
+                                                <p>
+                                                    <img src="./Preparing data for analysis_files/Bubbles_375x352.png" style="width: 375;height: 352;">
+                                                </p>
+                                                <p>It includes a visual method for associating tables and data sets together, with data sets depicted as ‘bubbles’ and with profiling to determine the best associations:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>Each table is represented as a bubble.</p>
+                                                        <p>This table called <span class="Data">products</span>, is added into the app and displayed in the Tables view as follows:</p>
+                                                        <p>
+                                                            <img src="./Preparing data for analysis_files/Module2_Products_DataManager.png">
+                                                        </p>
+                                                        <p>The same table is displayed as a bubble in the Associations view:</p>
+                                                        <p>
+                                                            <img src="./Preparing data for analysis_files/BubblesTable2.PNG">
+                                                        </p>
+                                                    </li>
+                                                    <li>Users can <span class="Emphasis">connect data</span> sets graphically.</li>
+                                                    <li><span class="Emphasis">Data profiling</span> determines the best associations.</li>
+                                                    <li>
+                                                        <p>Users can concatenate or join together (and map the fields with each other). A set of concatenated or join tables is also represented as one single bubble. These table operations can also be reverted when needed.
+</p>
+                                                        <p>
+                                                            <img src="./Preparing data for analysis_files/Module2_Employees_DataManager.png">
+                                                        </p>
+                                                        <p data-mc-conditions="General.Online"><span class="ActType">Click on the images below to enlarge them. Click again on the images to return to the page.</span>
+                                                        </p>
+                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Resources/Images/Course/BA_PreparingDataForAnalysis/Module2_Concatenate1_DataManager.png"><img class="MCPopupThumbnail img" data-mc-width="1205" data-mc-height="672" src="./Preparing data for analysis_files/Module2_Concatenate1_DataManager_thumb_0_64.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: 64px;border-left-style: solid;border-left-width: 1px;border-left-color: #808080;border-right-style: solid;border-right-width: 1px;border-right-color: #808080;border-top-style: solid;border-top-width: 1px;border-top-color: #808080;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #808080;" tabindex=""></a> <a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Resources/Images/Course/BA_PreparingDataForAnalysis/Module2_Concatenate2_DataManager.png"><img class="MCPopupThumbnail img" data-mc-width="1206" data-mc-height="706" src="./Preparing data for analysis_files/Module2_Concatenate2_DataManager_thumb_0_64.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: 64px;border-left-style: solid;border-left-width: 1px;border-left-color: #808080;border-right-style: solid;border-right-width: 1px;border-right-color: #808080;border-top-style: solid;border-top-width: 1px;border-top-color: #808080;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #808080;" tabindex=""></a></p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Scripted tables are tables that were loaded via the <span class="Emphasis">Data load editor</span>. They can also be associated and edited using <span class="Emphasis">Data manager</span> with the <span class="UI">Synchronize scripted tables</span> option available from the <span class="Emphasis">Associations </span>view.</p>
+                                                        <p>
+                                                            <img src="./Preparing data for analysis_files/Module2_Customers_DataManager.png">
+                                                        </p>
+                                                        <p data-mc-conditions="General.Online"><span class="ActType">Click on the image below to enlarge it.  Click again on the image to return to the page.</span>
+                                                        </p>
+                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Resources/Images/Course/BA_PreparingDataForAnalysis/Module2_Synchronize_DataManager.png"><img class="MCPopupThumbnail img" data-mc-width="1202" data-mc-height="593" src="./Preparing data for analysis_files/Module2_Synchronize_DataManager_thumb_0_48.png" style="mc-thumbnail: popup;border-left-style: solid;border-left-width: 1px;border-left-color: #808080;border-right-style: solid;border-right-width: 1px;border-right-color: #808080;border-top-style: solid;border-top-width: 1px;border-top-color: #808080;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #808080;" tabindex=""></a>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Other related topics:</h3>
+                                                <ul>
+                                                    <li><span class="SearchWord">Managing data associations </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><a href="https://www.youtube.com/watch?v=b2wFIjqV8U8" target="_blank">Load, prepare and associate data (video)</a>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="BusinessLogic"></a>Defining the business logic</h2>
+                                                <p>Business logic is an optional part of data preparation that defines the logical model used by some Insight Advisor features to interpret your data model. Business logic comprises two main features:</p>
+                                                <ul>
+                                                    <li><span class="UI">Logical model</span>: defines the data model of the app used when generating visualizations.</li>
+                                                    <li><span class="UI">Vocabulary</span>: includes alternative terms for natural language queries.</li>
+                                                </ul>
+                                                <p>Insight Advisor uses business logic in the following Insight Advisor features:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>Insight Advisor Search</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Insight Advisor Analysis Types</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Insight Advisor Chat</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Associative insights</p>
+                                                    </li>
+                                                </ul>
+                                                <p>
+                                                    </p><h3>Logical model</h3>
+                                                <p></p>
+                                                <p>Logical models are conceptual models that can help Qlik understand the data based on the business requirements and how the users will look at and query it. </p>
+                                                <p>Each app has a single logical model that the Insight Advisor uses to understand data queries when creating suggested visualizations in searches or generating insights. </p>
+                                                <p>The logical model in an app:</p>
+                                                <ul>
+                                                    <li>Is built from the underlying data model of an app.</li>
+                                                    <li>
+                                                        <p>Influences how Insight Advisor functions and how the system chooses between fields in natural language queries.</p>
+                                                    </li>
+                                                    <li>Has fields and master items as core components that can be organized into groups, representing conceptual associations or relationships between fields or master items.</li>
+                                                </ul>
+                                                <p>Operations with groups include:</p>
+                                                <ul>
+                                                    <li><span class="SearchWord">Packages </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> define collections of groups that can be use together.</li>
+                                                    <li><span class="SearchWord">Hierarchies </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> define drill-down analytical relationships between groups.</li>
+                                                    <li><span class="SearchWord">Behaviors </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> define preferred or deny relationships between fields.</li>
+                                                    <li><span class="SearchWord">Calendar periods </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> create default periods of analysis used by the Insight Advisor.</li>
+                                                </ul>
+                                                <p>You can customize the default <span class="SearchWord">Logical model</span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> under Business logic in the <b>Prepare</b> tab. Qlik Sense provides an overview of the model allowing you to modify definitions in fields, groups, and the group operations.</p>
+                                                <h3>Vocabulary</h3>
+                                                <p>Qlik allows you to define the business user vocabulary in the app using terms and values that are not present in the data. This improves the natural language queries success as Qlik can understand better what users are asking for. Additionally, you can define the response for specific terms and control the analyses returned by Insight Advisor.</p>
+                                                <p>You can create vocabularies in the <span class="SearchWord">Vocabulary </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> section under Business logic in the Prepare tab. </p>
+                                                <p>Vocabularies are created by language for an app. Each language's vocabulary is separate. The Insight Advisor supports multiple different languages.  Please search <span class="SearchWord">Adding custom analyses to Insight Advisor </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a> in the Help site for the current list.</p>
+                                                <p>Vocabularies are not supported in associative insights.</p>
+                                                <p>This feature supports three kinds of vocabulary:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p><b>Synonyms</b>:  allow you to add alternate terms.</p>
+                                                        <p>In the Synonyms table, each entry contains:</p>
+                                                        <ul style="list-style-type: square;">
+                                                            <li>Terms— A list of names or values that do not exist in the data model but can be used by business users when performing queries.</li>
+                                                            <li>Field — The field in the data model that can be associated with those terms.</li>
+                                                            <li>Condition — (optional) Specify the condition in the data when the terms will apply to the field. The availability of conditions for fields varies depending on the values in the fields.</li>
+                                                            <li>Values — (optional) The data values that are part of the condition.</li>
+                                                        </ul>
+                                                        <p>
+                                                            <img src="./Preparing data for analysis_files/Module2_Synonyms.png">
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <p><b>Custom analysis</b>:  allow you to define what analysis should be used with select terms.</p>
+                                                        <p>When you create one, you add terms to the analysis and then select the analysis type. You can then specify default dimensions or measures. Optionally, you can set constraints on your analysis type, to limit the scope.</p>
+                                                        <p>You can optionally choose the chart type to use in your analysis from those available to your analysis type. If you select a chart type, the custom analysis will always use that chart type unless it determines another chart is more appropriate for the selected data.</p>
+                                                    </li>
+                                                    <p>
+                                                        <img src="./Preparing data for analysis_files/Module2_CustomAnalysis.png">
+                                                    </p>
+                                                    <li><b>Example questions</b>: give you the ability to define default questions
+that will appear under the search bar in the Insight Advisor, as suggestions for users.
+			<p> When you register a question, you will see the result preview before saving it. </p><p>After adding it, users will see the example question under the Insight Advisor Search bar.</p><p><img src="./Preparing data for analysis_files/Module2_ExampleQuestions.png"></p><p>New example questions become available in Insight Advisor Chat after the app reloads.</p></li>
+                                                </ul>
+                                                <h3>Benefits of using Business logic in the app</h3>
+                                                <p>The benefits of customizing Business logic in an app are:</p>
+                                                <ul>
+                                                    <li>Improve Insight Advisor functionality with responses more aligned to the business.</li>
+                                                    <li>Allow Qlik to understand business terms or common acronyms or abbreviations users might use when searching. </li>
+                                                    <li>Use your own custom periods for analysis with calendar periods.</li>
+                                                    <li>Predefine behaviors when generating insights or searching based on selections or fields.</li>
+                                                    <li>Guide and help users' search in the app data.</li>
+                                                </ul>
+                                                <h4>Other related topics</h4>
+                                                <ul>
+                                                    <li><a href="https://www.youtube.com/watch?v=P72r4pEMLDI" target="_blank">Defining fields and groups in Business logic (video)</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Customizing logical models for Insight Advisor </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Creating vocabularies for Insight Advisor </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li>
+                                                        <p><a href="https://help.qlik.com/en-US/video/ESfujKu8bi8" target="_blank">Creating vocabulary in Business logic (video)</a>
+                                                        </p>
+                                                    </li>
+                                                    <li><span class="SearchWord">Tutorial – Customizing how Insight Advisor interprets data </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <h2><a name="MasterItems"></a>Reusable items and object library</h2>
+                                                <p>After the data is loaded in the app, you can define frequently used fields and calculations and store them as master dimensions and measures. There are also other objects that can be created and be reused in the app, such app charts or visualizations and selection states.</p>
+                                                <ul>
+                                                    <li>These dimensions and measures can be used in several visualizations and objects across the app but they are maintained or modified from one single entry point, in the Master items area.</li>
+                                                    <li>Master items and sheet assets are listed in the app library, also known as Assets library. In edit mode, the Assets panel displays these assets on the left.</li>
+                                                </ul>
+                                                <p>
+                                                    </p><h3>Master items</h3>
+                                                <p></p>
+                                                <p>Reusable fields, calculations, and visualizations can be set or defined in the app. They are called Master items and allow the users to apply global changes to visualizations, dimensions,
+and measures in one app. </p>
+                                                <p>Once these items are created, they can later be used as building blocks by anyone who has access to the app. </p>
+                                                <p>The items can be:</p>
+                                                <ul>
+                                                    <li><span class="SearchWord">Dimensions </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Measures </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Visualizations </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Alternate states </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                </ul>
+                                                <p>The benefits of using Master items are:</p>
+                                                <ul>
+                                                    <li>They provide centralized maintenance.</li>
+                                                    <li>They can be reused multiple times in an app, while maintaining them in just one place. </li>
+                                                    <li>When updating
+them, changes are applied everywhere they are used.</li>
+                                                    <li>They allow the analysis of data over relative time ranges (calendar measures).</li>
+                                                    <li>They create other selection states, apart from the default state, to analyze the data and compare different subsets together.</li>
+                                                </ul>
+                                                <h3>Asset panel library</h3>
+                                                <p>When editing an app, access the <span class="UI">Assets </span>panel. The <span class="UI">Assets </span>panel is considered a library of items which allow the users to further develop their apps.</p>
+                                                <p>
+                                                    </p><div class="Tip"><span class="Emphasis">Note</span>: You may need to use the <b>Advanced options</b> toggle to access the Assets panel in Edit mode.	    </div>
+                                                <p></p>
+                                                <p>Some of the library items are:</p>
+                                                <ul>
+                                                    <li>Fields — A list of data fields available in the app. Users can also reload or refresh the data from this list.</li>
+                                                    <li>Master items — Reusable dimensions, measures, and visualizations created in the app.</li>
+                                                    <li>Charts — The list of standard chart types and objects available in Qlik Sense.</li>
+                                                    <li>Custom objects — A list of different custom extensions and standard extension bundles that you can use in Qlik Sense to create custom visualizations and functionality.</li>
+                                                </ul>
+                                                <p>Search and select items in the <span class="SearchWord">Assets panel </span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>. From this work space, create, delete, or modify items when the app is not
+published. When it is published, library items are available for business users, but they cannot be modified.</p>
+                                                <h4>Other related topics</h4>
+                                                <ul>
+                                                    <li><span class="SearchWord">Reusing assets with master items </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Creating a master dimension </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Creating a master measure </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Assigning colors to master items </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Reusing visualizations with master visualization </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Creating a drill-down dimension </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Tagging master items </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                    <li><span class="SearchWord">Searching in the assets panel</span> <a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a></li>
+                                                    <li><span class="SearchWord">Create calendar measures </span><a class="HelpLink" href="https://help.qlik.com/" target="_blank" title="Copy the key term, open Qlik Help, and paste to search for that term" alt="Copy the key term, open Qlik Help, and paste to search for that term">F</a>
+                                                    </li>
+                                                </ul>
+                                                <hr width="100%" size="0" align="center">
+                                                <div class="ScreenDivider6">
+                                                    <div>
+                                                        <h3>
+                                                            <img src="./Preparing data for analysis_files/Documents_25x25.png" class="ReduceButtonSize" style="width: 25;height: 25;"> Other related resources</h3>
+                                                        <ul>
+                                                            <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Summary%20SheetPDFA.pdf" target="_blank">Prepare data summary sheet</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="outer-row">
+                                                        <div>
+                                                            <h3>
+                                                                <img src="./Preparing data for analysis_files/activity2_26x25.png" class="ReduceButtonSize" style="width: 26;height: 25;"> Activities</h3>
+                                                            <ul>
+                                                                <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Activity1_PDFA.htm" class="MCXref xref">Activity 1: Prepare data for a new app</a> </li>
+                                                                <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Activity2_PDFA.htm" class="MCXref xref">Activity 2: Define master dimensions and measures</a>
+                                                                </li>
+                                                                <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Activity3_PDFA.htm" class="MCXref xref">Activity 3: Create calendar measures</a>
+                                                                </li>
+                                                                <li><a href="https://iltlearning.qlik.com/pluginfile.php/328770/mod_resource/content/91/OnlineManual/Content/Modules/BA_12A101_PreparingDataForAnalysis/Activity4_PDFA.htm" class="MCXref xref">Activity 4: Define the business logic</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="footer">
+                                            <div class="footer-image-container">
+                                                <div class="footer-images"><a href="http://qlik.com/" title="Qlik.com" alt="Qlik.com" target="_blank"><img src="./Preparing data for analysis_files/QV_38x38.png" alttext="" class="Hyperlinked footer-logo" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="http://www.qlik.com/us/services/training" title="Qlik Training" alt="Qlik Training" target="_blank"><img src="./Preparing data for analysis_files/edu_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="http://learning.qlik.com/" title="Qlik Learning Portal" alt="Qlik Learning Portal" target="_blank"><img src="./Preparing data for analysis_files/QCC_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://community.qlik.com/" title="Qlik Community" alt="Qlik Community" target="_blank"><img src="./Preparing data for analysis_files/Forum2_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://www.facebook.com/qlik" title="Facebook" alt="Facebook" target="_blank"><img src="./Preparing data for analysis_files/facebook_grey_38x38.png" alttext="" class="Hyperlinked" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://twitter.com/qlik?lang=en-gb" title="Twitter" alt="Twitter" target="_blank"><img src="./Preparing data for analysis_files/twi_grey_38x38.png" alttext="" class="Hyperlinked" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a><a href="https://www.linkedin.com/company/qlik" title="LinkedIn" alt="LinkedIn" target="_blank"><img src="./Preparing data for analysis_files/linkin_grey_38x38.png" style="padding-left: 2px;padding-right: 2px;margin-left: 2px;margin-right: 2px;width: 38;height: 38;"></a>
+                                                </div>
+                                            </div>
+                                            <div class="footer-copyright">
+                                                <p class="Copyright"><span class="mc-variable General.Copyright variable">© 2023 QlikTech International AB. All rights reserved. All company and/or product names may be trade names, trademarks and/or registered trademarks of the respective owners with which they are associated.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                <div class="js-off-canvas-exit"></div></div>
+            </div>
+        </div>
+    
+<div id="hl-aria-live-message-container" aria-live="polite" class="visually-hidden"></div><div id="hl-aria-live-alert-container" role="alert" aria-live="assertive" class="visually-hidden"></div></body></html>
