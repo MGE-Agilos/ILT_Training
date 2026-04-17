@@ -1,0 +1,2422 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+@font-face 
+{
+	font-family: 'LUI icons';
+	src: url('../Fonts/LUI icons.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'QlikView icons';
+	src: url('../Fonts/qlikview-icons.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	color: #404040;
+	line-height: 1.7em;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+a
+{
+	color: #2d82dc;
+}
+
+a:link
+{
+	color: #2d82dc;
+}
+
+a:visited
+{
+	color: #655dc6;
+}
+
+a:hover
+{
+	color: #009845;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #000000;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #009845;
+}
+
+div.example
+{
+	background-color: #f0ff86;
+	background-repeat: no-repeat;
+	border: solid 1px #a4ac67;
+	border-radius: 6px;
+	margin-bottom: 15px;
+	padding: 20px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+/* Home page Button style */
+
+.startButton
+{
+	background-color: #132440;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 20px;
+	border: 1px solid #10cfc9;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 70px;
+	text-decoration: none;
+}
+
+.startButton:hover
+{
+	background-color: #009845;
+}
+
+.startButton:active
+{
+	position: relative;
+	top: 1px;
+}
+
+/* End of button style */
+
+div.GlossaryPageDefinition
+{
+	
+}
+
+div.GlossaryPageHeading
+{
+	
+}
+
+div.GlossaryPageTerm
+{
+	
+}
+
+div.ImagesFloatLeft
+{
+	clear: both;
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+div.ImagesFloatRight
+{
+	clear: both;
+	float: right;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+div.note
+{
+	background-color: #47484a;
+	background-image: url('../Images/NoteIcon.png');
+	background-repeat: no-repeat;
+	border: solid 1px #404040;
+	border-radius: 6px;
+	color: #b3b3b3;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	margin-top: 10px;
+}
+
+.noteInDiv
+{
+	mc-auto-number-format: '{b}{color #bed230}Note: {/color}{/b}';
+}
+
+div.quotation
+{
+	background-color: #e1e1e1;
+	background-image: url('../Images/QuotationMark.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	border-color: #b3b3b3;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 6px;
+	font-family: 'Century Gothic';
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 18px;
+	padding: 20px;
+	padding-left: 40px;
+}
+
+div.sideContent
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 33.33%;
+}
+
+div.TightContent
+{
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+}
+
+h1	/*Qlik Changed*/
+{
+	font-weight: normal;
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	font-family: Arial;
+	font-size: 18pt;
+	color: #009845;
+}
+
+h1.Appendix
+{
+	font-family: Arial;
+	color: #009845;
+	font-size: 18pt;
+}
+
+h1.UserGuideBHeading	/*Qlik Changed*/
+{
+	font-family: Arial;
+	font-size: 18pt;
+	color: #009845;
+}
+
+h2	/*Qlik Changed*/
+{
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 16pt;
+	color: #009845;
+}
+
+h3	/*Qlik Changed*/
+{
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 16px;
+	font-family: Arial;
+	font-size: 14pt;
+	color: #009845;
+}
+
+img
+{
+	border: none;
+}
+
+img.AbsolutePosition
+{
+	padding: 5px;
+}
+
+img.ReduceButtonSize
+{
+	max-height: 25px;
+}
+
+img.Thumbnail
+{
+	mc-thumbnail: popup;
+}
+
+li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	orphans: 2;
+	widows: 2;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-style: italic;
+	mc-breadcrumbs-prefix: 'You are here: ';
+	font-size: 0.8em;
+}
+
+MadCap|dropDown
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	mc-closed-image: url('../Images/DropDownClosed.png');
+	mc-open-image: url('../Images/DropDownOpen.png');
+}
+
+MadCap|dropDown.SecondLevel
+{
+	margin-left: 10px;
+	mc-closed-image: url('../Images/DropDownClosedSecondLevel.png');
+	mc-open-image: url('../Images/DropDownOpenSecondLevel.png');
+}
+
+MadCap|dropDownBody
+{
+	border-bottom-color: #009845;
+	border-bottom: solid 1px #009845;
+}
+
+MadCap|dropDownBody.Final
+{
+	border-bottom: 0;
+}
+
+MadCap|dropDownHead
+{
+	color: #009845;
+}
+
+MadCap|dropDownHotspot
+{
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14pt;
+	color: #009845;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	color: #54565a;
+}
+
+MadCap|footnoteBlock
+{
+	
+}
+
+MadCap|footnotesBlock
+{
+	
+}
+
+MadCap|glossaryProxy
+{
+	
+}
+
+MadCap|indexProxy
+{
+	
+}
+
+MadCap|miniTocProxy
+{
+	
+}
+
+MadCap|popup
+{
+	color: #006580;
+}
+
+MadCap|popup:focus
+{
+	color: #2D8DCC;
+}
+
+MadCap|popup:hover
+{
+	color: #2D8DCC;
+}
+
+MadCap|popupHead
+{
+	font-weight: bold;
+	color: #006580;
+}
+
+MadCap|tocProxy
+{
+	
+}
+
+MadCap|xref	/*Modified to be used in the lesson section links*/
+{
+	color: #2D8DCC;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	color: #009845;
+}
+
+MadCap|xref.IndexPageNumber
+{
+	
+}
+
+ol
+{
+	list-style-image: none;
+}
+
+ol ol
+{
+	list-style-type: lower-alpha;
+	margin-left: -10px;
+}
+
+ol ol ol
+{
+	list-style-type: lower-roman;
+	margin-left: -10px;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p.CompanyInformation1
+{
+	margin-bottom: 4px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+p.CompanyInformation2
+{
+	color: #6d6d6d;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+p.Copyright
+{
+	color: #9a9ea1;
+}
+
+p.CopyrightAddress
+{
+	
+}
+
+p.CopyrightHeading
+{
+	
+}
+
+p.CreatedUsingFlare
+{
+	
+}
+
+p.EmptyPageText
+{
+	
+}
+
+p.ExampleHeadText
+{
+	font-weight: bold;
+	page-break-after: avoid;
+	letter-spacing: 5px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+p.Figure
+{
+	
+}
+
+p.FirstPageOfChapter
+{
+	
+}
+
+p.FrameFooterText
+{
+	
+}
+
+p.FrameFooterText2
+{
+	
+}
+
+p.GlossaryPrintHead
+{
+	
+}
+
+p.IndexHeading
+{
+	
+}
+
+p.IndexPrintHead
+{
+	
+}
+
+p.ManualTitle1
+{
+	
+}
+
+p.ManualTitle2
+{
+	
+}
+
+p.ManualVersionNumber
+{
+	
+}
+
+p.MiniTOC1
+{
+	
+}
+
+p.quotationname
+{
+	text-align: right;
+}
+
+p.TableCaption
+{
+	
+}
+
+p.TableTextCenterDark
+{
+	color: #000000;
+	margin-bottom: 2px;
+	margin-top: 8px;
+	text-align: center;
+}
+
+p.TableTextDark
+{
+	color: #000000;
+	margin-bottom: 2px;
+	margin-top: 8px;
+}
+
+p.TableTextDarkEmphasis
+{
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 8px;
+}
+
+p.TableTextHeadDark
+{
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 8px;
+}
+
+p.TableTextLightEmphasis
+{
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 8px;
+}
+
+p.TOCHeading
+{
+	
+}
+
+span.Emphasis	/*Qlik Emphasis (Translate by default)*/
+{
+	font-weight: bold;
+}
+
+span.FigureNum
+{
+	
+}
+
+span.SetOffFirstLevel
+{
+	font-weight: bold;
+	color: #009845;
+}
+
+span.SetOffSecondLevel
+{
+	color: #445879;
+	font-weight: bold;
+}
+
+span.TableNum
+{
+	
+}
+
+td
+{
+	margin: 8px;
+	vertical-align: top;
+}
+
+th
+{
+	color: #ffffff;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+tr
+{
+	
+}
+
+ul	/*Qlik Changed*/
+{
+	list-style-image: url('../Images/Bullet1.png');
+}
+
+ul.FirstLevelLessIndentation
+{
+	list-style-image: url('../Images/Bullet1.png');
+	margin-left: -10px;
+}
+
+ul ul
+{
+	list-style-image: url('../Images/Bullet2.png');
+	margin-left: -10px;
+}
+
+html.templateTopic div.sideContent
+{
+	display: none;
+}
+
+h6	/*Qlik Changed*/
+{
+	font-family: Arial;
+	font-size: 9pt;
+	color: #009845;
+}
+
+h5	/*Qlik Changed*/
+{
+	font-family: Arial;
+	font-size: 10pt;
+	color: #009845;
+}
+
+h4	/*Qlik Changed*/
+{
+	font-family: Arial;
+	font-size: 12pt;
+	color: #009845;
+}
+
+div.ScreenDivider	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ScreenDivider::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ScreenDivider::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ScreenDivider > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ScreenDivider > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+ul.mc-bullets > li > ul
+{
+	list-style-image: url('../Images/Bullet1.png');
+}
+
+ul.mc-bullets > li > ul > li > ul > li::marker
+{
+	list-style-image: url('../Images/Bullet1OnlineLight.png');
+}
+
+div.ScreenDivider > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+MadCap|expandingHead
+{
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14pt;
+	color: #009845;
+}
+
+MadCap|expandingHead:hover
+{
+	color: #bcd32d;
+}
+
+MadCap|expandingHead:focus
+{
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+html.templateTopic
+{
+	mc-community-features: disabled;
+}
+
+div.ScreenDivider1	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ScreenDivider1::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ScreenDivider1::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ScreenDivider1 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ScreenDivider1 > div:nth-child(1)
+{
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider1 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider2	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ScreenDivider2::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ScreenDivider2::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ScreenDivider2 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ScreenDivider2 > div:nth-child(1)
+{
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider2 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider3	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ScreenDivider3::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ScreenDivider3::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ScreenDivider3 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ScreenDivider3 > div:nth-child(1)
+{
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider3 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider4	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ScreenDivider4::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ScreenDivider4::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ScreenDivider4 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ScreenDivider4 > div:nth-child(1)
+{
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider4 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider5	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ScreenDivider5::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ScreenDivider5::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ScreenDivider5 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ScreenDivider5 > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider5 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider5 > div:nth-child(3)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider6	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ScreenDivider6::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ScreenDivider6::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ScreenDivider6 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ScreenDivider6 > div:nth-child(1)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider6 > div:nth-child(2)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider7	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ScreenDivider7::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ScreenDivider7::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ScreenDivider7 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ScreenDivider7 > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider7 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider7 > div:nth-child(3)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider8	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ScreenDivider8::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ScreenDivider8::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ScreenDivider8 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ScreenDivider8 > div:nth-child(1)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider8 > div:nth-child(2)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider8 > div:nth-child(3)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.ScreenDivider8 > div:nth-child(4)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.img_story
+{
+	background-image: url('../Images/QlikImages/storytelling.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 250px;
+}
+
+hr.Qlikhr
+{
+	border-bottom-color: #009845;
+	border-color: #009845;
+}
+
+.q-button
+{
+	background-color: #009845;
+}
+
+MadCap|xref:focus
+{
+	color: #244b5a;
+}
+
+@media print
+{
+	body
+	{
+		margin: 8px;
+		line-height: 1.2em;
+		font-size: 10pt;
+		color: #000000;
+	}
+
+	div.GlossaryPageDefinition
+	{
+		font-size: 9pt;
+	}
+
+	div.GlossaryPageHeading
+	{
+		border-bottom-color: #bed230;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		font-size: 11pt;
+		color: #009845;
+	}
+
+	div.GlossaryPageTerm
+	{
+		font-size: 10pt;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		color: #009845;
+	}
+
+	div.note
+	{
+		padding-bottom: 20px;
+	}
+
+	h1
+	{
+		margin-bottom: 20px;
+		margin-left: 0;
+		padding-left: 0;
+		padding-top: 0;
+		color: #009845;
+		page-break-before: always;
+		font-size: 14pt;
+	}
+
+	h1.Appendix
+	{
+		mc-auto-number-format: 'APPENDIX ';
+	}
+
+	h1.UserGuideBHeading
+	{
+		page-break-before: always;
+	}
+
+	h2
+	{
+		font-weight: normal;
+		line-height: 14pt;
+		mc-redacted: inherit;
+		mc-toc-depth: 3;
+		mc-heading-level: 2;
+		font-size: 13pt;
+	}
+
+	h3
+	{
+		font-weight: normal;
+		line-height: 12pt;
+		mc-heading-level: 3;
+		font-size: 12pt;
+	}
+
+	h4
+	{
+		mc-heading-level: 0;
+		font-weight: normal;
+		line-height: 12pt;
+		font-size: 12pt;
+	}
+
+	MadCap|dropDown.SecondLevel
+	{
+		background-color: transparent;
+		margin-left: 10px;
+	}
+
+	MadCap|dropDownBody
+	{
+		border-bottom: none;
+	}
+
+	MadCap|dropDownHead
+	{
+		margin-top: 16px;
+	}
+
+	MadCap|dropDownHotspot
+	{
+		font-size: 12pt;
+	}
+
+	MadCap|footnoteBlock
+	{
+		font-size: 7pt;
+	}
+
+	MadCap|footnotesBlock
+	{
+		border-top-color: #bed230;
+	}
+
+	MadCap|glossaryProxy
+	{
+		border-top: none;
+		color: #e1e1e1;
+	}
+
+	MadCap|indexProxy
+	{
+		border-top: none;
+		color: #e1e1e1;
+	}
+
+	MadCap|miniTocProxy
+	{
+		border-top: 0;
+		margin-left: 0.25in;
+		margin-right: 0.25in;
+		padding-left: 0;
+	}
+
+	MadCap|tocProxy
+	{
+		border-top: none;
+		margin-right: 0.25in;
+	}
+
+	MadCap|xref
+	{
+		color: #404040;
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+
+	MadCap|xref.IndexPageNumber
+	{
+		color: #009845;
+	}
+
+	nav.tab-bar,
+	div.sideContent
+	{
+		display: none;
+	}
+
+	ol ol
+	{
+		margin-left: 30px;
+	}
+
+	ol ol ol
+	{
+		margin-left: 30px;
+	}
+
+	p
+	{
+		
+	}
+
+	p.Copyright
+	{
+		margin-bottom: 8px;
+		margin-top: 8px;
+	}
+
+	p.CopyrightAddress
+	{
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	p.CopyrightHeading
+	{
+		margin-top: 1in;
+	}
+
+	p.CreatedUsingFlare
+	{
+		font-weight: bold;
+		margin-top: 18px;
+	}
+
+	p.EmptyPageText
+	{
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	p.Figure
+	{
+		color: #404040;
+		font-style: italic;
+		mc-auto-number-class: FigureNum;
+		mc-auto-number-format: 'CF:Figure {chapnum}-{n+} ';
+		margin-left: 10px;
+		padding-bottom: 10px;
+	}
+
+	p.FirstPageOfChapter
+	{
+		color: #009845;
+	}
+
+	p.FrameFooterText
+	{
+		font-size: 24pt;
+		font-family: Arial;
+	}
+
+	p.FrameFooterText2
+	{
+		color: #404040;
+		font-size: 11pt;
+		font-family: Arial;
+	}
+
+	p.GlossaryPrintHead
+	{
+		color: #3e3e3e;
+		text-align: right;
+		font-family: Arial;
+		font-size: 20pt;
+	}
+
+	p.IndexHeading
+	{
+		font-size: 11pt;
+		padding-top: 16px;
+		text-align: left;
+	}
+
+	p.IndexPrintHead
+	{
+		color: #3e3e3e;
+		letter-spacing: -1px;
+		mc-heading-level: 1;
+		page-break-before: always;
+		text-align: right;
+		font-family: Arial;
+		font-size: 30pt;
+	}
+
+	p.ManualTitle1
+	{
+		font-size: 9pt;
+		margin-bottom: 0;
+		margin-left: 1in;
+		margin-top: 2.00in;
+		font-family: Arial;
+	}
+
+	p.ManualTitle2
+	{
+		font-size: 22pt;
+		line-height: 0;
+		margin-bottom: 0;
+		margin-left: 1in;
+		margin-top: 0;
+		font-family: Arial;
+		color: #2e953e;
+	}
+
+	p.ManualVersionNumber
+	{
+		font-size: 12pt;
+		margin-left: 1in;
+		margin-top: 12pt;
+		font-family: Arial;
+		color: #9a9ea1;
+	}
+
+	p.MiniTOC1
+	{
+		color: #e1e1e1;
+		font-size: 9pt;
+		font-weight: normal;
+	}
+
+	p.TableCaption
+	{
+		color: #404040;
+		font-style: italic;
+		mc-auto-number-class: TableNum;
+		mc-auto-number-format: 'CT:Table {chapnum}-{n+} ';
+		padding-bottom: 0;
+		padding-top: 12px;
+	}
+
+	p.TOC1
+	{
+		font-size: 12pt;
+		margin-bottom: 6px;
+		margin-top: 12px;
+		mc-leader-format: 'none';
+		mc-pagenum-display: none;
+		page-break-after: avoid;
+		font-weight: bold;
+		color: #009845;
+	}
+
+	p.TOC2
+	{
+		font-weight: normal;
+		margin-bottom: 2px;
+		margin-left: 0.25in;
+		margin-top: 2px;
+		font-size: 12pt;
+		color: #54565a;
+	}
+
+	p.TOC3
+	{
+		font-weight: normal;
+		margin-bottom: 2px;
+		margin-left: 0.35in;
+		margin-top: 2px;
+		color: #9a9ea1;
+		font-size: 12pt;
+	}
+
+	p.TOC4
+	{
+		font-size: 12pt;
+		font-weight: normal;
+		margin-bottom: 6px;
+		margin-left: 0;
+		margin-top: 12px;
+		color: #009845;
+	}
+
+	p.TOCHeading
+	{
+		color: #3e3e3e;
+		font-weight: normal;
+		letter-spacing: -1px;
+		line-height: 92pt;
+		margin: 0;
+		mc-heading-level: 0;
+		text-align: center;
+		font-size: 20pt;
+	}
+
+	span.ChapAutoNum
+	{
+		font-family: Arial;
+		font-size: 13pt;
+		color: #696969;
+	}
+
+	span.FigureNum
+	{
+		color: #bed230;
+		font-style: normal;
+	}
+
+	span.TableNum
+	{
+		font-style: normal;
+		color: #009845;
+	}
+
+	tr
+	{
+		page-break-inside: avoid;
+	}
+
+	ul
+	{
+		list-style-image: none;
+		list-style-type: square;
+	}
+
+	ul.FirstLevelLessIndentation
+	{
+		margin-left: 30px;
+		list-style-image: none;
+		list-style-type: square;
+	}
+
+	ul ul
+	{
+		margin-left: 30px;
+		list-style-image: none;
+		list-style-type: disc;
+	}
+
+	ul.mc-bullets
+	{
+		list-style-image: none;
+		list-style-type: square;
+	}
+
+	MadCap|expandingBody.QlikExpandedBody
+	{
+		font-size: 12pt;
+	}
+
+	div.Tip
+	{
+		/*	background-image: url('../Images/QlikImages/idea.png'); */
+		background-size: 20px;
+		background-image: none;
+		padding-left: 10px;
+		background-color: #beffe9;
+		border: solid 2px #009845;
+	}
+
+	div.Platform
+	{
+		background-size: 20px;
+		background-image: none;
+		padding-left: 10px;
+		background-color: FFE4E7;
+		border: solid 2px #ff8e9f;
+	}
+
+	.MCExpandingBody
+	{
+		page-break-after: inherit;
+	}
+
+	MadCap|pageFooter
+	{
+		mc-feader-type: first;
+	}
+
+	MadCap|expandingBody
+	{
+		mc-printer-page-footer-margin: 0px;
+	}
+
+	div.Code
+	{
+		background-image: none;
+		background-size: 20px;
+		padding-left: 10px;
+		font-size: 10pt;
+		border: solid 1px #a9a9a9;
+		background-color: #f8f8ff;
+		letter-spacing: 0.1;
+	}
+
+	ul.qv-bullets-green
+	{
+		list-style-image: url('../Images/Bullet1.png');
+	}
+
+	hr.Qlikhr
+	{
+		
+	}
+
+	h5
+	{
+		mc-heading-level: 0;
+		font-weight: normal;
+		font-size: 12pt;
+	}
+
+	h6
+	{
+		mc-heading-level: 0;
+		font-size: 10pt;
+	}
+
+	span.Script_Comment
+	{
+		font-size: 10pt;
+	}
+
+	span.Script_Function
+	{
+		font-size: 10pt;
+	}
+
+	span.Script_Indent
+	{
+		font-size: 10pt;
+	}
+
+	span.Script
+	{
+		font-size: 10pt;
+	}
+
+	MadCap|expandingHead
+	{
+		font-size: 12pt;
+	}
+
+	div.LearningPathHead
+	{
+		width: 100%;
+	}
+
+	div.LearningPathBody
+	{
+		width: 100%;
+	}
+}
+
+span.Data	/*Qlik Data fields and table names (Do not translate)*/
+{
+	font-style: italic;
+}
+
+span.UserInput	/*Qlik User Input (Translate by default)*/
+{
+	font-style: italic;
+	font-family: Arial;
+}
+
+span.URL	/*Qlik URL (Do Not Translate)*/
+{
+	text-decoration: underline;
+	color: #0000ff;
+	font-family: Arial;
+}
+
+span.Script	/*Qlik Script (Do Not Translate)*/
+{
+	color: #000000;
+	font-weight: normal;
+	display: block;
+	font-family: Consolas;
+	font-size: 12pt;
+}
+
+span.UI	/*Qlik UI (Translate by default)*/
+{
+	font-weight: bold;
+	font-family: Arial;
+}
+
+span.QlikIcons	/*Qlik icons (Do Not Translate)*/
+{
+	font-weight: bold;
+	font-family: 'LUI icons';
+	font-size: 12pt;
+}
+
+.DNT	/*Qlik  Do Not Translate*/
+{
+	
+}
+
+span.Script_Function	/*Qlik Script Function (Do Not Translate)*/
+{
+	font-weight: bold;
+	font-size: 10.5pt;
+	color: #6a8fde;
+}
+
+span.Script_Comment	/*Qlik Script Comment (Do Not Translate)*/
+{
+	font-style: italic;
+	color: #808080;
+	font-weight: normal;
+	font-size: 10.5pt;
+}
+
+MadCap|relatedTopicsControlListItemLink.outer-row:link
+{
+	
+}
+
+div.divQlikTitle
+{
+	background-color: #47484a;
+	background-repeat: no-repeat;
+	border: solid 1px #404040;
+	color: #b3b3b3;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	margin-top: 10px;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	div.ScreenDivider > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider > div:nth-child(3)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider1 > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider1 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider2 > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider2 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider3 > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider3 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider4 > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider4 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider5 > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider5 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider5 > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider6 > div:nth-child(1)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider6 > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider7 > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider7 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider7 > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider8 > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider8 > div:nth-child(2)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider8 > div:nth-child(3)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider8 > div:nth-child(4)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.img_story
+	{
+		
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.ScreenDivider > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider1 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider1 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider2 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider2 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider3 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider3 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider4 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider4 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider5 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider5 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider5 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.divObjectives
+	{
+		
+	}
+
+	div.ScreenDivider6 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider6 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider7 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider7 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider7 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider8 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider8 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider8 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ScreenDivider8 > div:nth-child(4)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.img_story
+	{
+		background-image: url('../Images/QlikImages/storytelling_mobile.png');
+		background-repeat: no-repeat;
+		height: 200px;
+	}
+}
+
+div.quiz button,
+.q-button
+{
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	display: inline-block;
+	color: #ffffff;
+	border: none;
+	box-shadow: none;
+	padding: 10px 20px;
+	background-color: #009845;
+}
+
+div.quiz button:disabled
+{
+	background-color: #CCC;
+}
+
+div.quiz .incorrect
+{
+	color: #f90834;
+}
+
+div.quiz .correct
+{
+	color: #6bb545;
+}
+
+.result
+{
+	color: #999b9e;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.goBack a,
+.goBack a:visited,
+.goBack a:hover,
+.goBack a:active
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.quiz,
+.result,
+.goBack
+{
+	margin-bottom: 10px;
+}
+
+ul.mc-bullets
+{
+	list-style-image: url('../Images/Bullet1.png');
+}
+
+div.footer
+{
+	
+}
+
+a.Green	/*Qlik Ref green*/
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #009845;
+}
+
+MadCap|expandingBody.QlikExpandedBody
+{
+	font-size: 12pt;
+}
+
+div.divObjectives	/*QlikLessonObjectives*/
+{
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	margin-top: 10px;
+	background-image: url('../Images/QlikImages/books.png');
+	background-position: 5px 5px;
+	background-size: 30px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	font-size: 12pt;
+}
+
+div.Tip	/*Qlik Note style*/
+{
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-image: url('../Images/QlikImages/idea.png');
+	background-position: 5px 5px;
+	background-size: 30px;
+	color: #090909;
+	border: solid 1px #009845;
+	background-color: #beffe9;
+}
+
+div.Platform	/*Qlik Note style*/
+{
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-image: url('../Images/QlikImages/Mobile.png');
+	background-position: 5px 5px;
+	background-size: 30px;
+	color: #090909;
+	border: solid 1px #ff8e9f;
+	background-color: #ffe4e7;
+}
+
+span.ActType
+{
+	font-style: italic;
+	font-weight: bold;
+	color: #006937;
+}
+
+span.Emphasis_DNT	/*Qlik Emphasis (Do Not Translate)*/
+{
+	font-weight: bold;
+	background-color: transparent;
+}
+
+span.UserInput_DNT	/*Qlik UserInput (Do Not Translate)*/
+{
+	font-style: italic;
+	background-color: transparent;
+}
+
+div.topichero
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	padding-bottom: 100;
+	padding-top: 5;
+	background-image: none;
+}
+
+.inner-wrap .main-section > .outer-row
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+div#FoorterCopyright
+{
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #f5f5f5;
+	position: absolute;
+	bottom: 0px;
+	color: #999b9e;
+}
+
+div.footer-image-container
+{
+	height: 42px;
+	padding: 5px;
+	background-color: #c4cfda;
+}
+
+div.footer-images
+{
+	text-align: center;
+	padding: 1px;
+}
+
+div.footer-images img
+{
+	height: 35px;
+	/* width: 35px; */
+}
+
+div.footer-copyright
+{
+	background-color: #f5f5f5;
+	text-align: center;
+	font-size: 8pt;
+	padding: 5px;
+	color: #54565a;
+}
+
+.inlineBlock
+{
+	display: inline-block;
+}
+
+.MCExpanding_Open,
+.MCExpanding_Open .MCExpandingBody
+{
+	display: block;
+}
+
+div.quizCorrectQ	/*Qlik Correct list of responses in a quiz*/
+{
+	color: #008000;
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: normal;
+}
+
+div.quizIncorrectQ	/*Qlik Incorrect list of responses in a quiz*/
+{
+	color: #ff0000;
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: normal;
+}
+
+ul.qv-bullets-green
+{
+	list-style-image: url('../Images/Bullet1.png');
+}
+
+.quiz-container
+{
+	overflow-y: auto;
+}
+
+.float-left
+{
+	display: inline-block;
+	float: left;
+}
+
+.float-right
+{
+	display: inline-block;
+	float: right;
+}
+
+div.Code	/*Qlik Data load script*/
+{
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-right: 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 10px;
+	background-position: 5px 5px;
+	background-size: 30px;
+	background-image: url('../Images/QlikImages/SciptIcon.png');
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	white-space: pre-wrap;
+	font-size: 10.5pt;
+	font-family: Consolas;
+	background-color: #f8f8ff;
+	border: solid 1px #a9a9a9;
+	border-bottom-color: #a9a9a9;
+	color: #000000;
+	line-height: 12.6pt;
+	letter-spacing: 0.1;
+}
+
+/*div.Code[xml:space] {	
+  white-space: pre;
+}*/
+
+span.Script_Indent	/*Qlik Script (Do Not Translate)*/
+{
+	display: block;
+	font-size: 10.5pt;
+	text-indent: 20px;
+	line-height: normal;
+}
+
+div.Course_Name	/*Qlik course name - top of the page*/
+{
+	background-color: #009845;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+	/*	font-size: 11pt; */
+	border-top: solid 3px #ffffff;
+	padding: 5px;
+}
+
+#EnDoc	/*Qlik course name - top of the page*/
+{
+	background-color: #C4CFDA;
+	color: #54565A;
+}
+
+span.SearchWord
+{
+	color: #655dc6;
+	font-weight: bold;
+	font-style: normal;
+}
+
+a.HelpLink
+{
+	color: #655dc6;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 'LUI icons';
+	font-size: 11pt;
+}
+
+span.SearchWordQCC
+{
+	font-weight: bold;
+	font-style: normal;
+	color: #870064;
+}
+
+a.QCCLink
+{
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 'LUI icons';
+	font-size: 11pt;
+	color: #870064;
+}
+
+div.LearningPathHead	/*QlikLessonObjectives*/
+{
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	-webkit-border-radius: 6px;
+	margin-top: 10px;
+	font-size: 12pt;
+	background-color: #009845;
+	color: #FFFFFF;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	display: block;
+	padding-right: 10px;
+	background-size: 70px;
+	background-position: 20px 5px;
+	padding-left: 110px;
+	width: 80%;
+}
+
+div.LearningPathBody	/*QlikLessonObjectives*/
+{
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	-webkit-border-radius: 6px;
+	background-position: 5px 5px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-radius: 0;
+	margin-top: 0px;
+	-moz-border-radius: 0px;
+	color: #54565a;
+	background-color: #e6e6e6;
+	background-size: 60px;
+	width: 80%;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+}
+
+div.PreRequisites	/*Qlik PreRequisites style*/
+{
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-image: url('../Images/QlikImages/checklist.png');
+	background-position: 5px 5px;
+	background-size: 30px;
+	color: #1c345e;
+	border-left-color: #1C345E;
+	border-top-color: #1C345E;
+	border: solid 1px #1c345e;
+	background-color: #ffffff;
+}
+
+span.Script_TableLabel
+{
+	color: #8e477d;
+	font-weight: bold;
+	font-size: 10.5pt;
+}
+
+span.Script_FieldName
+{
+	color: #cc9966;
+	font-weight: bold;
+	font-size: 10.5pt;
+}
+
+span.Script_FixedValue
+{
+	color: #44751d;
+	font-weight: normal;
+	font-size: 10.5pt;
+}
+
+span.Script_VariableName
+{
+	font-size: 10.5pt;
+	color: #cc99cc;
+	font-weight: bold;
+}
+
